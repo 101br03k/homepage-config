@@ -157,7 +157,7 @@
         ping: https://192.168.0.21:6902
         icon: https://raw.githubusercontent.com/101br03k/docker-setup/5db41c6fc85ce3f83abebf28e74b5b4bbaeba319/logo's/firefox-logo-1000x1032.png
 
-- Graphs:
+- Stats:
    - Pi-Hole:
         href: http://192.168.0.21/admin/
         ping: http://192.168.0.21/admin/
