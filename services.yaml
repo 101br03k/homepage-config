@@ -62,7 +62,7 @@
           fields: ["download", "upload", "ping"]
     - Watch Your Lan:
         description: Lan Monitor
-        href: http://192.168.0.21:8840
+        href: http://192.168.0.21:8840/line/?state=on
         ping: http://192.168.0.21:8840
         icon: https://raw.githubusercontent.com/101br03k/docker-setup/main/logo's/WatchYourLan.png
     - Uptime Kuma:
