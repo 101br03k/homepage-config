@@ -42,12 +42,12 @@
 
 - Monitoring:
     - Dozzle:
-        description: A lightweight, web-based Docker log viewer that provides real-time monitoring and easy troubleshooting.
+        description: Web-based live Docker log viewer. 
         href: http://192.168.0.21:9999
         ping: http://192.168.0.21:9999
         icon: dozzle
     - Glances:
-        description: A monitoring tool which aims to present information through a curses or Web based interface.
+        description: A monitoring tool that presents information through a Web based interface.
         href: http://192.168.0.21:61208
         ping: http://192.168.0.21:61208
         icon: glances
