@@ -194,7 +194,7 @@
 
 - Glances:
    - Glances:
-       description: A monitoring tool which aims to present information through a curses or Web based interface.
+       description: A monitoring tool that presents information through a Web based interface.
        href: http://192.168.0.21:61208
        ping: http://192.168.0.21:61208
        icon: glances
