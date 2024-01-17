@@ -6,9 +6,12 @@
     - Github:
         - abbr: GH
           href: https://github.com/101br03k
-    - Homepage Config Repo / Folder:
+    - Homepage Config Repo:
         - abbr: CO
           href: https://github.com/101br03k/homepage-config
+    - Docker setup Repo:
+        - abbr: DO
+          href: https://github.com/101br03k/docker-setup
 
 - Social:
     - Reddit r/Selfhosted:
