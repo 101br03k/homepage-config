@@ -212,6 +212,15 @@
            widget:
              type: qbittorrent
              url: http://192.168.0.22:18080
+    - Watchtower:
+           href: http://192.168.0.22:18080
+           ping: http://192.168.0.22:18080
+           icon: watchtower
+           widget:
+             type: watchtower
+             url: http://192.168.0.21:59869
+             key: watchtower101paulushttpapitokenjonge
+             fields: ["containers_scanned", "containers_updated", "containers_failed"]
 
 - Glances:
    - Glances:
