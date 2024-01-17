@@ -85,9 +85,11 @@
         href: http://192.168.0.21:3001
         ping: http://192.168.0.21:3001
         icon: uptime-kuma
+        description: internal (ping) monitoring
     - Uptime Robot: 
         href: https://beta-app.uptimerobot.com/monitors
         icon: https://raw.githubusercontent.com/101br03k/docker-setup/main/logo's/uptime-robot.png
+        description: external (ping) monitoring
 
 - Media:
     - Qbittorrent:
