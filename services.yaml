@@ -87,7 +87,7 @@
         icon: uptime-kuma
     - Uptime Robot: 
         href: https://beta-app.uptimerobot.com/monitors
-        icon: uptime-robot
+        icon: https://raw.githubusercontent.com/101br03k/docker-setup/main/logo's/uptime-robot.png
 
 - Media:
     - Qbittorrent:
