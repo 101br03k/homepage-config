@@ -47,10 +47,10 @@
           type: pihole
           url: http://192.168.0.51/
           fields: ["queries", "blocked", "blocked_percent", "gravity"]
-    - Wetty:
-       href: http://192.168.0.21:3000/wetty/
-       ping: http://192.168.0.21:3000/wetty/
-       icon: https://apps.heimdall.site/storage/icons/wetty.png
+#    - Wetty:
+#       href: http://192.168.0.21:3000/wetty/
+#       ping: http://192.168.0.21:3000/wetty/
+#       icon: https://apps.heimdall.site/storage/icons/wetty.png
     - Scrypted: 
        href: http://192.168.0.21:11080
        ping: http://192.168.0.21:11080
