@@ -212,7 +212,7 @@
            widget:
              type: qbittorrent
              url: http://192.168.0.22:18080
-    - Watchtower:
+   - Watchtower:
            href: http://192.168.0.22:18080
            ping: http://192.168.0.22:18080
            icon: watchtower
