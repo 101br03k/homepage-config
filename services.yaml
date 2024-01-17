@@ -31,7 +31,7 @@
           type: pihole
           url: http://192.168.0.21/
           fields: ["queries", "blocked", "blocked_percent", "gravity"]
-    - Pi-Hole 01:
+    - Pi-Hole 150-01:
         href: http://192.168.0.50/admin/
         ping: http://192.168.0.50/admin/
         icon: pi-hole
@@ -39,7 +39,7 @@
           type: pihole
           url: http://192.168.0.50/
           fields: ["queries", "blocked", "blocked_percent", "gravity"]
-    - Pi-Hole 02:
+    - Pi-Hole 151-02:
         href: http://192.168.0.51/admin/
         ping: http://192.168.0.51/admin/
         icon: pi-hole
