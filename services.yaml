@@ -215,7 +215,7 @@
    - What's up Docker:
            href: http://192.168.0.21:26111
            ping: http://192.168.0.21:26111
-           icon: whatsupdocker
+           icon: http://192.168.0.21:26111/img/wud_logo_white.ee4e06b1.png
            widget:
              type: whatsupdocker
              url: http://192.168.0.21:26111
