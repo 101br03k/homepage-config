@@ -216,6 +216,9 @@
            href: http://192.168.0.22:26111
            ping: http://192.168.0.22:26111
            icon: whatsupdocker
+           widget:
+             type: whatsupdocker
+             url: http://192.168.0.22:26111
    - Watchtower:
            href: http://192.168.0.22:18080
            ping: http://192.168.0.22:18080
