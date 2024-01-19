@@ -219,13 +219,6 @@
            widget:
              type: whatsupdocker
              url: http://192.168.0.21:26111
-   - Watchtower:
-           icon: watchtower
-           #widget:
-           #  type: watchtower
-           #  url: http://192.168.0.21:59869
-           #  key: watchtower101paulushttpapitokenjonge
-           #  fields: ["containers_scanned", "containers_updated", "containers_failed"]
 
 - Glances:
    - Glances:
