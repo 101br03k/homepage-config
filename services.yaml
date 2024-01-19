@@ -213,7 +213,7 @@
              type: qbittorrent
              url: http://192.168.0.22:18080
    - What's up Docker:
-           href: http://192.168.0.21:26111
+           href: http://192.168.0.21:26111/containers?update-available=true
            ping: http://192.168.0.21:26111
            icon: http://192.168.0.21:26111/img/wud_logo_white.ee4e06b1.png
            widget:
