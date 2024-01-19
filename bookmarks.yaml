@@ -3,15 +3,18 @@
 # https://gethomepage.dev/en/configs/bookmarks
 
 - Developer:
-    - Github:
-        - abbr: GH
-          href: https://github.com/101br03k
+    - Homepage.dev:
+        - abbr: HP
+          href: https://gethomepage.dev/
     - Homepage Config Repo:
         - abbr: CO
           href: https://github.com/101br03k/homepage-config
     - Docker setup Repo:
         - abbr: DO
           href: https://github.com/101br03k/docker-setup
+    - Github:
+        - abbr: GH
+          href: https://github.com/101br03k
 
 - Social:
     - Reddit r/Selfhosted:
@@ -24,6 +27,4 @@
           href: https://hub.docker.com
 
 - Homepage:
-    - Homepage.dev:
-        - abbr: HP
-          href: https://gethomepage.dev/
+    
