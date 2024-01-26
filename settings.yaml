@@ -34,7 +34,7 @@ layout:
     Overig: 
       tab: Main
 
-    pihole:
+    Pihole:
       tab: Status
 
     Stats: 
