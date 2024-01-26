@@ -6,12 +6,12 @@
     - Ziggo Connectbox:
         description: Arris TG2492LG
         href: http://192.168.0.1/
-        icon: http://192.168.0.21:8096/storage/icons/router.svg
+        icon: https://raw.githubusercontent.com/101br03k/docker-setup/main/logo's/router.png
     - MikroTik RB260G:
         description: Switch
         href: http://192.168.0.5/
         ping: http://192.168.0.5/
-        icon: http://192.168.0.21:8096/storage/icons/router.svg
+        icon: https://raw.githubusercontent.com/101br03k/docker-setup/main/logo's/router.png
     - HP Envy 4520:
         href: http://192.168.0.15/
         icon: https://apps.heimdall.site/storage/icons/printer.png
