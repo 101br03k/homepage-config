@@ -70,6 +70,10 @@
         href: https://beta-app.uptimerobot.com/monitors
         icon: https://raw.githubusercontent.com/101br03k/docker-setup/main/logo's/uptime-robot.png
         description: external (ping) monitoring
+        widget:
+          type: uptimerobot
+          url: https://api.uptimerobot.com
+          key: uptimerobotapitoken
 
 - Media:
     - Qbittorrent:
@@ -133,10 +137,6 @@
         href: http://192.168.0.21:2283
         ping: http://192.168.0.21:2283
         icon: immich
-#    - Crontab-UI: 
-#        href: http://192.168.0.21:8656
-#        ping: http://192.168.0.21:5443
-#        icon: cron
 
 - Overig:
     - Spotify Buddylist: 
