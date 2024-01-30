@@ -70,10 +70,6 @@
         href: https://beta-app.uptimerobot.com/monitors
         icon: https://raw.githubusercontent.com/101br03k/docker-setup/main/logo's/uptime-robot.png
         description: external (ping) monitoring
-        widget:
-          type: uptimerobot
-          url: https://api.uptimerobot.com
-          key: uptimerobotapitoken
 
 - Media:
     - Qbittorrent:
@@ -199,6 +195,14 @@
           url: http://192.168.0.21:3001
           slug: docker
           fields: ["up", "down", "uptime", "incident"]
+   - Uptime Robot: 
+        href: https://beta-app.uptimerobot.com/monitors
+        icon: https://raw.githubusercontent.com/101br03k/docker-setup/main/logo's/uptime-robot.png
+        description: external (ping) monitoring
+        widget:
+          type: uptimerobot
+          url: https://api.uptimerobot.com
+          key: uptimerobotapitoken
    - Qbittorrent:
            href: http://192.168.0.22:18080
            ping: http://192.168.0.22:18080
