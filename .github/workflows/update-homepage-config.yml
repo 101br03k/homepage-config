@@ -16,7 +16,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
 
-      - name: Upload new Docker Compose File
+      - name: Pull Homepage Config
         uses: appleboy/scp-action@master
         with:
           username: adm-aw
