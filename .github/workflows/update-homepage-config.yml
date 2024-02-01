@@ -22,10 +22,7 @@ jobs:
           username: adm-aw
           host: paulus-100-docker
           key: ${{ secrets.SSH_paulus_100_docker }}
-          command: |
-            cd /docker/docker-setup/homepage-config/
-            wget -N https://raw.githubusercontent.com/101br03k/homepage-config/main/bookmarks.yaml
-            wget -N https://raw.githubusercontent.com/101br03k/homepage-config/main/docker.yaml
-            wget -N https://raw.githubusercontent.com/101br03k/homepage-config/main/services.yaml
-            wget -N https://raw.githubusercontent.com/101br03k/homepage-config/main/settings.yaml
-            wget -N https://raw.githubusercontent.com/101br03k/homepage-config/main/widgets.yaml
+          source: '*'
+          target: /docker/docker-setup/homepage-config/
+          strip_components: 3
+          overwrite: true
