@@ -1,0 +1,32 @@
+name: Update Homepage Config
+
+on:
+  push:
+    branches:
+      - main
+      - test
+      - dev
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: "self-hosted"
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Upload new Docker Compose File
+        uses: appleboy/scp-action@master
+        with:
+          username: xcad
+          host: srv-prod-7.home.clcreative.de
+          command: |
+            cd /docker/docker-setup/homepage-config/
+            sudo rm /docker/docker-setup/homepage-config/*.yaml
+            wget -N https://raw.githubusercontent.com/101br03k/homepage-config/main/bookmarks.yaml
+            wget -N https://raw.githubusercontent.com/101br03k/homepage-config/main/docker.yaml
+            wget -N https://raw.githubusercontent.com/101br03k/homepage-config/main/services.yaml
+            wget -N https://raw.githubusercontent.com/101br03k/homepage-config/main/settings.yaml
+            wget -N https://raw.githubusercontent.com/101br03k/homepage-config/main/widgets.yaml
+            sudo chown adm-aw bookmarks.yaml docker.yaml services.yaml settings.yaml widgets.yaml # custom.css custom.js
