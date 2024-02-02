@@ -26,3 +26,5 @@ jobs:
           #target: /docker/docker-setup/homepage-config/
           #strip_components: 3
           #overwrite: true
+          command: |
+            ./docker/docker-setup/homepage-config/download-config.sh
