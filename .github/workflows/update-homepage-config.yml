@@ -17,14 +17,15 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Pull Homepage Config
-        uses: appleboy/ssh-action@master
+        uses: fifsky/ssh-action@master
         with:
           username: adm-aw
-          host: paulus-100-docker
+          host: paulus-100-docker.hl
           key: ${{ secrets.SSH_paulus_100_docker }}
           #source: '/*'
           #target: /docker/docker-setup/homepage-config/
           #strip_components: 3
           #overwrite: true
-          script: |
+          command: |
+            ./docker/docker-setup/homepage-config/download-config.sh
             sudo ./docker/docker-setup/homepage-config/download-config.sh
