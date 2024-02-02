@@ -22,7 +22,7 @@ jobs:
           username: adm-aw
           host: paulus-100-docker.hl
           key: ${{ secrets.SSH_paulus_100_docker }}
-          source: '/*'
-          target: /docker/docker-setup/homepage-config/
-          strip_components: 3
-          overwrite: true
+          #source: '/*'
+          #target: /docker/docker-setup/homepage-config/
+          #strip_components: 3
+          #overwrite: true
