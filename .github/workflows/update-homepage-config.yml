@@ -20,7 +20,7 @@ jobs:
         uses: fifsky/ssh-action@master
         with:
           username: adm-aw
-          host: paulus-100-docker.hl
+          host: paulus-100-docker
           key: ${{ secrets.SSH_paulus_100_docker }}
           #source: '/*'
           #target: /docker/docker-setup/homepage-config/
