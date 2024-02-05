@@ -17,6 +17,7 @@ jobs:
         uses: fifsky/ssh-action@master
         with:
           user: adm-aw
+          host: 192.168.0.21
           key: ${{ secrets.SSH_paulus_100_docker }}
           command: |
             cd /docker/docker-setup/
