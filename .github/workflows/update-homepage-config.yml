@@ -19,6 +19,6 @@ jobs:
           user: test
           host: 192.168.0.21
           key: ${{ secrets.SSH_paulus_100_docker }}
-          password: test
+          pass: test
           command: |
             cd /docker/docker-setup/
