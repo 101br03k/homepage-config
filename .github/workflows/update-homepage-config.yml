@@ -19,7 +19,7 @@ jobs:
           user: adm-aw
           host: 192.168.0.21
           key: ${{ secrets.SSH_paulus_100_docker }}
-          publickey: ${{ secrets.publickey_docker_100 }}
+          pass: ${{ secrets.pass_docker_100 }}
           command: |
             cd /docker/docker-setup/
             pwd
