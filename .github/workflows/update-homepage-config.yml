@@ -22,3 +22,4 @@ jobs:
           pass: test
           command: |
             cd /docker/docker-setup/
+            pwd
