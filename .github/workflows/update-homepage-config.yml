@@ -25,3 +25,4 @@ jobs:
             rm *.yaml
             ls -al
             ./download-config.sh
+            ls -al
