@@ -85,17 +85,14 @@
         ping: http://192.168.0.22:9696
         icon: prowlarr
     - Sonarr:
-        description: Series management
         href: http://192.168.0.22:8989
         ping: http://192.168.0.22:8989
         icon: sonarr
     - Radarr:
-        description: Movie management
         href: http://192.168.0.22:7878
         ping: http://192.168.0.22:7878
         icon: radarr
     - Readarr:
-        description: Ebooks management
         href: http://192.168.0.22:8787
         ping: http://192.168.0.22:8787
         icon: readarr
