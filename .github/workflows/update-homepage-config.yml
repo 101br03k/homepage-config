@@ -12,12 +12,3 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v2
-
-      - name: Restart Docker Container
-        uses: fifsky/ssh-action@master
-        with:
-          user: adm-aw
-          host: paulus-101-docker.hl
-          key: ${{ secrets.SSH_paulus_100_docker }}
-          command: |
-            cd /docker/docker-setup/
