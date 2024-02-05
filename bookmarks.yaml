@@ -25,4 +25,6 @@
     - Docker Hub:
         - abbr: DH
           href: https://hub.docker.com
-  
+    - LinuxServer.io:
+        - abbr: LS
+          href: https://fleet.linuxserver.io/ 
