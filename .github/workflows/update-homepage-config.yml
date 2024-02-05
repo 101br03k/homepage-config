@@ -3,7 +3,7 @@ name: Update Docker Compose File
 on:
   push:
     branches:
-      - main
+      - test
 
 jobs:
   deploy:
@@ -13,11 +13,13 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
 
-      - name: Restart Docker Container
+      - name: Download new Homepage config
         uses: fifsky/ssh-action@master
         with:
           user: adm-aw
-          host: paulus-101-docker.hl
+          host: 192.168.0.21
           key: ${{ secrets.SSH_paulus_100_docker }}
+          pass: ${{ secrets.pass_docker_100 }}
           command: |
-            cd /docker/docker-setup/
+            cd /docker/docker-setup/homepage-config/
+            ./download-config.sh
