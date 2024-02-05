@@ -1,31 +1,23 @@
-name: Update Homepage Config
+name: Update Docker Compose File
 
 on:
   push:
     branches:
       - main
-      - test
-      - dev
-  workflow_dispatch:
 
 jobs:
   deploy:
-    runs-on: "self-hosted"
+    runs-on: your-runner
 
     steps:
       - name: Checkout
         uses: actions/checkout@v2
 
-      - name: Pull Homepage Config
+      - name: Restart Docker Container
         uses: fifsky/ssh-action@master
         with:
-          username: adm-aw
-          host: paulus-100-docker.hl
+          user: adm-aw
+          host: paulus-101-docker.hl
           key: ${{ secrets.SSH_paulus_100_docker }}
-          #source: '/*'
-          #target: /docker/docker-setup/homepage-config/
-          #strip_components: 3
-          #overwrite: true
           command: |
-            ./docker/docker-setup/homepage-config/download-config.sh
-            sudo ./docker/docker-setup/homepage-config/download-config.sh
+            cd /docker/docker-setup/
