@@ -23,4 +23,5 @@ jobs:
           command: |
             cd /docker/docker-setup/homepage-config/
             rm *.yaml
+            ls -al
             ./download-config.sh
