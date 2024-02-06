@@ -217,6 +217,8 @@
            widget:
              type: whatsupdocker
              url: http://192.168.0.21:26111
+           server: my-docker
+           container: wud
 
 - Glances:
    - Glances:
