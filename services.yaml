@@ -126,6 +126,9 @@
         href: http://192.168.0.21:181
         ping: https://192.168.0.21:180
         icon: nginx-proxy-manager
+    - ChangeDetection.IO: 
+        href: http://192.168.0.21:5000/
+        ping: http://192.168.0.21:5000/
     - Ansible Semaphore:
         href: http://192.168.0.21:3000
         ping: http://192.168.0.21:3000
