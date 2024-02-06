@@ -56,8 +56,6 @@
           type: speedtest
           url: http://192.168.0.21:8080
           fields: ["download", "upload", "ping"]
-        server: my-docker # The docker server that was configured
-        container: speedtest-tracker # The name of the container you'd like to connect
     - Watch Your Lan:
         description: Lan Monitor
         href: http://192.168.0.21:8840/line/?state=on
@@ -217,8 +215,6 @@
            widget:
              type: whatsupdocker
              url: http://192.168.0.21:26111
-           server: my-docker
-           container: wud
 
 - Glances:
    - Glances:
