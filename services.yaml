@@ -43,7 +43,7 @@
         ping: http://192.168.0.21:9999
         icon: dozzle
     - Glances:
-        description: Monitoring tool served true web based interface
+        description: Monitoring tool served through web based interface
         href: http://192.168.0.21:61208
         ping: http://192.168.0.21:61208
         icon: glances
