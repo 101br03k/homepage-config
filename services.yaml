@@ -137,7 +137,7 @@
     - draw.io:
         href: http://192.168.0.21:44594
         ping: https://192.168.0.21:44594
-        icon: draw.io
+        icon: draw-io
     - Ansible Semaphore:
         href: http://192.168.0.21:3000
         ping: http://192.168.0.21:3000
