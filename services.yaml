@@ -142,8 +142,7 @@
         href: http://192.168.0.21:3000
         ping: http://192.168.0.21:3000
         icon: semaphore
-    
-
+        
 - Overig:
     - Spotify Buddylist:
         href: http://192.168.0.21:10000/
@@ -154,12 +153,10 @@
         ping: http://192.168.0.21:46882/
         icon: task-md
     - Kasmweb/Firefox1:
-        description: Firefox container 1
         href: https://192.168.0.21:6901
         ping: https://192.168.0.21:6901
         icon: https://raw.githubusercontent.com/101br03k/docker-setup/5db41c6fc85ce3f83abebf28e74b5b4bbaeba319/logo's/firefox-logo-1000x1032.png
     - Kasmweb/Firefox2:
-        description: Firefox container 1
         href: https://192.168.0.21:6902
         ping: https://192.168.0.21:6902
         icon: https://raw.githubusercontent.com/101br03k/docker-setup/5db41c6fc85ce3f83abebf28e74b5b4bbaeba319/logo's/firefox-logo-1000x1032.png
