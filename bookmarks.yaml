@@ -2,26 +2,30 @@
 # For configuration options and examples, please see:
 # https://gethomepage.dev/en/configs/bookmarks
 
-- Developer:
+- Homepage Related:
     - Homepage.dev:
         - abbr: HP
           href: https://gethomepage.dev/
     - Homepage Config Repo:
         - abbr: CO
           href: https://github.com/101br03k/homepage-config
-    - Docker setup Repo:
-        - abbr: DO
-          href: https://github.com/101br03k/docker-setup
-    - Github:
-        - abbr: GH
-          href: https://github.com/101br03k
+    - Homepage Icons:
+        - abbr: HI
+          href: https://github.com/walkxcode/dashboard-icons
+    
 
 - Social:
     - Reddit r/Selfhosted:
         - abbr: RE
           href: https://www.reddit.com/r/selfhosted
 
-- Docker Hub:
+- Developer:
+    - Docker setup Repo:
+        - abbr: DO
+          href: https://github.com/101br03k/docker-setup
+    - Github:
+        - abbr: GH
+          href: https://github.com/101br03k
     - Docker Hub:
         - abbr: DH
           href: https://hub.docker.com
