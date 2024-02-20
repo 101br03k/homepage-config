@@ -151,7 +151,7 @@
     - Task.md:
         href: http://192.168.0.21:46882/
         ping: http://192.168.0.21:46882/
-        icon: https://github.com/BaldissaraMatheus/Tasks.md/blob/9a8f6acbe2c057525e67a66a2d70efbf0948f1ab/public/logo.png
+        icon: https://raw.githubusercontent.com/101br03k/docker-setup/5db41c6fc85ce3f83abebf28e74b5b4bbaeba319/logo's/task-md.png
     - Kasmweb/Firefox1:
         href: https://192.168.0.21:6901
         ping: https://192.168.0.21:6901
