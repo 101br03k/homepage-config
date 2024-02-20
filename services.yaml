@@ -151,15 +151,15 @@
     - Task.md:
         href: http://192.168.0.21:46882/
         ping: http://192.168.0.21:46882/
-        icon: https://raw.githubusercontent.com/101br03k/docker-setup/5db41c6fc85ce3f83abebf28e74b5b4bbaeba319/logo's/task-md.png
+        icon: https://raw.githubusercontent.com/101br03k/docker-setup/main/logo's/task-md.png
     - Kasmweb/Firefox1:
         href: https://192.168.0.21:6901
         ping: https://192.168.0.21:6901
-        icon: https://raw.githubusercontent.com/101br03k/docker-setup/5db41c6fc85ce3f83abebf28e74b5b4bbaeba319/logo's/firefox-logo-1000x1032.png
+        icon: https://raw.githubusercontent.com/101br03k/docker-setup/main/logo's/firefox-logo-1000x1032.png
     - Kasmweb/Firefox2:
         href: https://192.168.0.21:6902
         ping: https://192.168.0.21:6902
-        icon: https://raw.githubusercontent.com/101br03k/docker-setup/5db41c6fc85ce3f83abebf28e74b5b4bbaeba319/logo's/firefox-logo-1000x1032.png
+        icon: https://raw.githubusercontent.com/101br03k/docker-setup/main/logo's/firefox-logo-1000x1032.png
 
 - Pihole:
    - Pi-Hole:
