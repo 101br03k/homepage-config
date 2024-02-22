@@ -92,15 +92,15 @@
         href: http://192.168.0.22:7878
         ping: http://192.168.0.22:7878
         icon: radarr
-    - Readarr:
-        href: http://192.168.0.22:8787
-        ping: http://192.168.0.22:8787
-        icon: readarr
-    - Lidarr:
-        description: Music management
-        href: http://192.168.0.22:8686
-        ping: http://192.168.0.22:8686
-        icon: lidarr
+#    - Readarr:
+#        href: http://192.168.0.22:8787
+#        ping: http://192.168.0.22:8787
+#        icon: readarr
+#    - Lidarr:
+#        description: Music management
+#        href: http://192.168.0.22:8686
+#        ping: http://192.168.0.22:8686
+#        icon: lidarr
     - Bazarr:
         description: Subtitle management
         href: http://192.168.0.22:6767
