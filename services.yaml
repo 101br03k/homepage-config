@@ -164,7 +164,7 @@
 - Dev:
     - Docker Docs:
         href: 192.168.0.179:8000
-        ping: href: 192.168.0.179:8000
+        ping: 192.168.0.179:8000
         icon: readthedocs
 
 - Pihole:
