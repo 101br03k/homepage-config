@@ -21,7 +21,7 @@ jobs:
           key: ${{ secrets.SSH_paulus_100_docker }}
           pass: ${{ secrets.pass_docker_100 }}
           command: |
-            cd /docker/docker-setup/homepage-config/
+            cd /docker/homepage-config/
             rm *.yaml
             ls -al
             ./download-config.sh
