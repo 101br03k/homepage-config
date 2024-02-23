@@ -116,7 +116,7 @@
         href: https://www.duplicati-monitoring.com/overview
         icon: duplicati
     - Vscode web editor:
-        href: http://192.168.0.21:5443/?folder=/docker/
+        href: http://192.168.0.21:5443/?folder=/docker
         ping: http://192.168.0.21:5443
         icon: vscode
     - TwingateVPN:
