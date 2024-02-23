@@ -161,6 +161,12 @@
         ping: https://192.168.0.21:6912
         icon: https://raw.githubusercontent.com/101br03k/docker-setup/main/logo's/firefox-logo-1000x1032.png
 
+- Dev:
+    - Docker Docs:
+        href: 192.168.0.179:8000
+        ping: href: 192.168.0.179:8000
+        icon: readthedocs
+
 - Pihole:
    - Pi-Hole:
         href: http://192.168.0.21/admin/
