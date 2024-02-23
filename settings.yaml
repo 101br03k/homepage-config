@@ -34,6 +34,9 @@ layout:
     Overig: 
       tab: Main
 
+    Dev: 
+      tab: Main
+
     Pihole:
       tab: Status
 
