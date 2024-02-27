@@ -137,7 +137,7 @@
         icon: https://raw.githubusercontent.com/101br03k/docker-setup/main/logo's/changedetection-icon.png
         widget:
           type: changedetectionio
-          url: http://192.168.0.21:5000/
+          url: http://192.168.0.21:5000
           key: d51635b58bfcb1f73c4384c6e8270aad
     - draw.io:
         href: http://192.168.0.21:44594
