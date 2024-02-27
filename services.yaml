@@ -112,7 +112,7 @@
         ping: http://192.168.0.21:8888
         icon: postgres
 
-- Media & Data 1:
+- Media & Data 2:
     - Duplicati:
         href: http://192.168.0.21:8200
         ping: http://192.168.0.21:8200
