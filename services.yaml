@@ -71,7 +71,7 @@
         icon: https://raw.githubusercontent.com/101br03k/docker-setup/main/logo's/uptime-robot.png
         description: external monitoring
 
-- Media:
+- Media & Data 1:
     - Qbittorrent:
         href: http://192.168.0.22:18080
         ping: http://192.168.0.22:18080
@@ -106,8 +106,13 @@
         href: http://192.168.0.22:6767
         ping: http://192.168.0.22:6767
         icon: bazarr
+    - pgAdmin:
+        description: Subtitle management
+        href: http://192.168.0.21:8888
+        ping: http://192.168.0.21:8888
+        icon: postgres
 
-- Tools:
+- Media & Data 1:
     - Duplicati:
         href: http://192.168.0.21:8200
         ping: http://192.168.0.21:8200
