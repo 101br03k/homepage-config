@@ -107,7 +107,7 @@
         ping: http://192.168.0.22:6767
         icon: bazarr
     - pgAdmin:
-        description: Subtitle management
+        description: postgreSQL management
         href: http://192.168.0.21:8888
         ping: http://192.168.0.21:8888
         icon: postgres
