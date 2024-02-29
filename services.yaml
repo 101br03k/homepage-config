@@ -6,12 +6,12 @@
     - Ziggo Connectbox:
         description: Arris TG2492LG
         href: http://192.168.0.1/
-        icon: https://raw.githubusercontent.com/101br03k/docker-setup/main/logo's/router.png
+        icon: https://raw.githubusercontent.com/101br03k/docker-setup/main/dashboard-icons/router.png
     - MikroTik RB260G:
         description: Switch
         href: http://192.168.0.5/
         ping: http://192.168.0.5/
-        icon: https://raw.githubusercontent.com/101br03k/docker-setup/main/logo's/router.png
+        icon: https://raw.githubusercontent.com/101br03k/docker-setup/main/dashboard-icons/router.png
     - HP Envy 4520:
         href: http://192.168.0.15/
         icon: https://apps.heimdall.site/storage/icons/printer.png
@@ -60,7 +60,7 @@
         description: Lan Monitor
         href: http://192.168.0.21:8840/line/?state=on
         ping: http://192.168.0.21:8840
-        icon: https://raw.githubusercontent.com/101br03k/docker-setup/main/logo's/WatchYourLan.png
+        icon: https://raw.githubusercontent.com/101br03k/docker-setup/main/dashboard-icons/WatchYourLan.png
     - Uptime Kuma:
         href: http://192.168.0.21:3001
         ping: http://192.168.0.21:3001
@@ -68,7 +68,7 @@
         description: internal monitoring
     - Uptime Robot:
         href: https://beta-app.uptimerobot.com/monitors
-        icon: https://raw.githubusercontent.com/101br03k/docker-setup/main/logo's/uptime-robot.png
+        icon: https://raw.githubusercontent.com/101br03k/docker-setup/main/dashboard-icons/uptime-robot.png
         description: external monitoring
 
 - Media & Data 1:
@@ -134,7 +134,7 @@
     - ChangeDetection.IO: 
         href: http://192.168.0.21:5000
         ping: http://192.168.0.21:5000
-        icon: https://raw.githubusercontent.com/101br03k/docker-setup/main/logo's/changedetection-icon.png
+        icon: https://raw.githubusercontent.com/101br03k/docker-setup/main/dashboard-icons/changedetection-icon.png
         widget:
           type: changedetectionio
           url: http://192.168.0.21:5000
@@ -156,15 +156,15 @@
     - Task.md:
         href: http://192.168.0.21:46882
         ping: http://192.168.0.21:46882
-        icon: https://raw.githubusercontent.com/101br03k/docker-setup/main/logo's/task-md.png
+        icon: https://raw.githubusercontent.com/101br03k/docker-setup/main/dashboard-icons/task-md.png
     - Firefox1:
         href: https://192.168.0.21:6902
         ping: https://192.168.0.21:6902
-        icon: https://raw.githubusercontent.com/101br03k/docker-setup/main/logo's/firefox-logo-1000x1032.png
+        icon: https://raw.githubusercontent.com/101br03k/docker-setup/main/dashboard-icons/firefox-logo-1000x1032.png
     - Firefox2:
         href: https://192.168.0.21:6912
         ping: https://192.168.0.21:6912
-        icon: https://raw.githubusercontent.com/101br03k/docker-setup/main/logo's/firefox-logo-1000x1032.png
+        icon: https://raw.githubusercontent.com/101br03k/docker-setup/main/dashboard-icons/firefox-logo-1000x1032.png
 
 - Dev:
     - Docker Docs:
@@ -175,7 +175,7 @@
         description: postgreSQL management
         href: http://192.168.0.179:8888
         ping: http://192.168.0.179:8888
-        icon: postgres
+        icon: https://raw.githubusercontent.com/101br03k/docker-setup/main/dashboard-icons/postgres_alternative.png
 
 - Pihole:
    - Pi-Hole:
@@ -224,7 +224,7 @@
           fields: ["up", "down", "uptime", "incident"]
    - Uptime Robot:
         href: https://beta-app.uptimerobot.com/monitors
-        icon: https://raw.githubusercontent.com/101br03k/docker-setup/main/logo's/uptime-robot.png
+        icon: https://raw.githubusercontent.com/101br03k/docker-setup/main/dashboard-icons/uptime-robot.png
         description: external (ping) monitoring
         widget:
           type: uptimerobot
