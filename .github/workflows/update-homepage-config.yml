@@ -23,6 +23,6 @@ jobs:
           command: |
             cd /docker/homepage-config/
             rm *.yaml
-            ls -al
+            ls -alh
             ./download-config.sh
-            ls -al
+            ls -alh
