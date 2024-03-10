@@ -157,6 +157,10 @@
         href: http://192.168.0.21:46882
         ping: http://192.168.0.21:46882
         icon: https://raw.githubusercontent.com/101br03k/docker-setup/main/dashboard-icons/task-md.png
+    - Nginx:
+        href: http://192.168.0.21:14486
+        ping: http://192.168.0.21:14486
+        icon: nginx
     - Firefox1:
         href: https://192.168.0.21:6902
         ping: https://192.168.0.21:6902
