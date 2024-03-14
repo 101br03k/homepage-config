@@ -3,6 +3,7 @@
 # https://gethomepage.dev/en/configs/settings
 
 title: Paulus HomePage
+useEqualHeights: true
 
 background:
   image: https://cdnb.artstation.com/p/assets/images/images/006/897/659/large/mikael-gustafsson-wallpaper-mikael-gustafsson.jpg
