@@ -131,6 +131,10 @@
         href: http://192.168.0.21:181
         ping: https://192.168.0.21:180
         icon: nginx-proxy-manager
+    - Cronicle:
+        href: http://192.168.0.21:3012
+        ping: http://192.168.0.21:3012
+        icon: Cronicle
     - ChangeDetection.IO: 
         href: http://192.168.0.21:5000
         ping: http://192.168.0.21:5000
@@ -139,10 +143,6 @@
           type: changedetectionio
           url: http://192.168.0.21:5000
           key: d51635b58bfcb1f73c4384c6e8270aad
-    - draw.io:
-        href: http://192.168.0.21:44594
-        ping: https://192.168.0.21:44594
-        icon: draw-io
     - Ansible Semaphore:
         href: http://192.168.0.21:3000
         ping: http://192.168.0.21:3000
@@ -157,6 +157,10 @@
         href: http://192.168.0.21:46882
         ping: http://192.168.0.21:46882
         icon: https://raw.githubusercontent.com/101br03k/docker-setup/main/dashboard-icons/task-md.png
+    - draw.io:
+        href: http://192.168.0.21:44594
+        ping: https://192.168.0.21:44594
+        icon: draw-io
     - Nginx:
         href: http://192.168.0.21:14486
         ping: http://192.168.0.21:14486
