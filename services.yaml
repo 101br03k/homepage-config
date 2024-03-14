@@ -179,6 +179,10 @@
         href: http://192.168.0.179:8000
         ping: http://192.168.0.179:8000
         icon: readthedocs
+    - WikiJS:
+        href: http://192.168.0.21:19804
+        ping: http://192.168.0.21:19804
+        icon: wikijs
     - pgAdmin:
         description: postgreSQL management
         href: http://192.168.0.179:8888
