@@ -134,7 +134,7 @@
     - Cronicle:
         href: http://192.168.0.21:3012
         ping: http://192.168.0.21:3012
-        icon: Cronicle
+        icon: https://raw.githubusercontent.com/101br03k/docker-setup/main/dashboard-icons/cronjob.svg
     - ChangeDetection.IO: 
         href: http://192.168.0.21:5000
         ping: http://192.168.0.21:5000
