@@ -119,7 +119,7 @@
         icon: duplicati
     - Duplicati Monitoring:
         href: https://www.duplicati-monitoring.com/overview
-        icon: duplicati
+        icon: https://raw.githubusercontent.com/101br03k/docker-setup/main/dashboard-icons/duplicati-monitoring.png
     - Code-server:
         href: http://192.168.0.21:5443/?folder=/docker
         ping: http://192.168.0.21:5443
