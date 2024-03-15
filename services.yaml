@@ -18,7 +18,7 @@
     - Dockge:
         href: http://192.168.0.21:5001
         ping: http://192.168.0.21:5001
-        icon: https://raw.githubusercontent.com/louislam/dockge/master/frontend/public/icon.svg
+        icon: dockge-light
     - Portainer:
         href: https://192.168.0.21:9443
         ping: https://192.168.0.21:9443
