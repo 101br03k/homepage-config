@@ -161,9 +161,13 @@
         href: http://192.168.0.21:44594
         ping: https://192.168.0.21:44594
         icon: draw-io
-    - Nginx:
-        href: http://192.168.0.21:14486
-        ping: http://192.168.0.21:14486
+    - rembg-webapp:
+        href: http://192.168.0.21:5100
+        ping: http://192.168.0.21:5100
+        icon: python
+    - nginx-up-page:
+        href: http://192.168.0.21:5200
+        ping: http://192.168.0.21:5200
         icon: nginx
     - Firefox1:
         href: https://192.168.0.21:6902
