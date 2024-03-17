@@ -192,6 +192,14 @@
         href: http://192.168.0.21:19804
         ping: http://192.168.0.21:19804
         icon: wikijs
+    - rembg-webapp:
+        href: http://192.168.0.21:5100
+        ping: http://192.168.0.21:5100
+        icon: python
+    - nginx-up-page:
+        href: http://192.168.0.21:5200
+        ping: http://192.168.0.21:5200
+        icon: nginx
 
 - Pihole:
    - Pi-Hole:
