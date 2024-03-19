@@ -160,6 +160,7 @@
     - Homebox:
         href: http://192.168.0.21:3100
         ping: http://192.168.0.21:3100
+        icon: homebox
         widget:
           type: homebox
           url: http://homebox.host.or.ip:port
