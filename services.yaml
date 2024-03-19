@@ -157,6 +157,15 @@
         href: http://192.168.0.21:46882
         ping: http://192.168.0.21:46882
         icon: https://raw.githubusercontent.com/101br03k/docker-setup/main/dashboard-icons/task-md.png
+    - Homebox:
+        href: http://192.168.0.21:3100
+        ping: http://192.168.0.21:3100
+        widget:
+          type: homebox
+          url: http://homebox.host.or.ip:port
+          username: adm-aw@adrie.it
+          password: 11518747d588e58bae072bc8d87228323b7a625771ba1861fe1898ee5e859d4a
+  fields: ["items", "locations", "totalValue"] # optional - default fields shown
     - draw.io:
         href: http://192.168.0.21:44594
         ping: https://192.168.0.21:44594
