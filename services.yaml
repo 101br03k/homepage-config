@@ -156,7 +156,7 @@
     - Tasks.md:
         href: http://192.168.0.21:46882
         ping: http://192.168.0.21:46882
-        icon: https://raw.githubusercontent.com/101br03k/docker-setup/main/dashboard-icons/-md.png
+        icon: https://raw.githubusercontent.com/101br03k/docker-setup/main/dashboard-icons/md.png
     - Homebox:
         href: http://192.168.0.21:3100
         ping: http://192.168.0.21:3100
