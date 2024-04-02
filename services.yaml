@@ -166,7 +166,7 @@
           url: http://192.168.0.21:3100
           username: adm-aw@adrie.it
           password: 11518747d588e58bae072bc8d87228323b7a625771ba1861fe1898ee5e859d4a
-          fields: ["items", "locations", "totalValue"] # optional - default fields shown
+          fields: ["items", "locations", "totalWithWarranty"] # optional - default fields shown
     - draw.io:
         href: http://192.168.0.21:44594
         ping: https://192.168.0.21:44594
