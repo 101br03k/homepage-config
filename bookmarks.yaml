@@ -4,13 +4,13 @@
 
 - Homepage Related:
     - Homepage.dev:
-        - abbr: HP
+        - icon: si-github-#FFFFFF
           href: https://gethomepage.dev/
     - Homepage Config Repo:
-        - abbr: CO
+        - icon: si-github-#FFFFFF
           href: https://github.com/101br03k/homepage-config
     - Homepage Icons:
-        - abbr: HI
+        - icon: si-github-#FFFFFF
           href: https://github.com/walkxcode/dashboard-icons
     
 
@@ -21,10 +21,10 @@
 
 - Developer:
     - Docker setup Repo:
-        - abbr: DO
+        - icon: si-github-#FFFFFF
           href: https://github.com/101br03k/docker-setup
     - Github:
-        - abbr: GH
+        - icon: si-github-#FFFFFF
           href: https://github.com/101br03k
     - Docker Hub:
         - abbr: DH
