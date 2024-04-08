@@ -197,7 +197,7 @@
     - rembg-webapp:
         href: http://192.168.0.179:5100
         ping: http://192.168.0.179:5100
-        icon: https://raw.githubusercontent.com/101br03k/docker-setup/main/dashboard-icons/python-dev.svg
+        icon: python
         id: upsidedown
     - nginx-up-page:
         href: http://192.168.0.179:5200
