@@ -262,7 +262,7 @@
         widget:
           type: uptimerobot
           url: https://api.uptimerobot.com
-          key: ur2434985-23ec4e73848a30cc6e873d3d
+          key: {{HOMEPAGE_VAR_UPTIMEROBOT_KEY}}
    - Qbittorrent:
            href: http://192.168.0.22:18080
            ping: http://192.168.0.22:18080
