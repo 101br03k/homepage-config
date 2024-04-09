@@ -142,7 +142,7 @@
         widget:
           type: changedetectionio
           url: http://192.168.0.21:5000
-          key: d51635b58bfcb1f73c4384c6e8270aad
+          key: {{HOMEPAGE_VAR_CHANGEDETECTIONKEY}}
     - Ansible Semaphore:
         href: http://192.168.0.21:3000
         ping: http://192.168.0.21:3000
@@ -164,8 +164,8 @@
         widget:
           type: homebox
           url: http://192.168.0.21:3100
-          username: adm-aw@adrie.it
-          password: 11518747d588e58bae072bc8d87228323b7a625771ba1861fe1898ee5e859d4a
+          username: {{HOMEPAGE_VAR_MAIL}}
+          password: {{HOMEPAGE_VAR_PASSWORD}}
           fields: ["items", "locations", "totalWithWarranty"] # optional - default fields shown
     - draw.io:
         href: http://192.168.0.21:44594
