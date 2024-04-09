@@ -203,6 +203,9 @@
         href: http://192.168.0.179:5200
         ping: http://192.168.0.179:5200
         icon: nginx
+    - tilde:
+        href: http://192.168.0.179:5500
+        ping: http://192.168.0.179:5500
 
 - Placeholder:
     - Placeholder:
