@@ -142,7 +142,7 @@
         widget:
           type: changedetectionio
           url: http://192.168.0.21:5000
-          key: {{HOMEPAGE_VAR_CHANGEDETECTIONKEY}}
+          key: {{HOMEPAGE_VAR_CHANGEDETECTION_KEY}}
     - Ansible Semaphore:
         href: http://192.168.0.21:3000
         ping: http://192.168.0.21:3000
