@@ -244,7 +244,7 @@
         description: Speedtest-tracker and database
         href: http://192.168.0.21:8080
         ping: http://192.168.0.21:8080
-        icon: speedtest-tracker
+        icon: speedtest-tracker-old
         widget:
           type: speedtest
           url: http://192.168.0.21:8080
