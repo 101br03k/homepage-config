@@ -70,6 +70,9 @@
         href: https://beta-app.uptimerobot.com/monitors
         icon: https://raw.githubusercontent.com/101br03k/docker-setup/main/dashboard-icons/uptime-robot.png
         description: external monitoring
+    - Dockcheck-web:
+        href: http://192.168.0.21:20012
+        ping: http://192.168.0.21:20012/
 
 - Media & Data 1:
     - Qbittorrent:
@@ -273,13 +276,6 @@
            widget:
              type: qbittorrent
              url: http://192.168.0.22:18080
-   - What's up Docker:
-           href: http://192.168.0.21:26111/containers?update-available=true
-           ping: http://192.168.0.21:26111
-           icon: http://192.168.0.21:26111/img/wud_logo_white.ee4e06b1.png
-           widget:
-             type: whatsupdocker
-             url: http://192.168.0.21:26111
 
 - Glances:
    - Glances:
