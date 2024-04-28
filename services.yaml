@@ -142,8 +142,8 @@
           url: http://192.168.0.21:5000
           key: {{HOMEPAGE_VAR_CHANGEDETECTION_KEY}}
     - Baikal:
-        href: 192.168.0.21:49695
-        ping: 192.168.0.21:49695
+        href: http://192.168.0.21:49695
+        ping: http://192.168.0.21:49695
         icon: https://raw.githubusercontent.com/101br03k/docker-setup/main/dashboard-icons/baikal.png
         
 - Overig:
