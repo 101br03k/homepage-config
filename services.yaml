@@ -129,10 +129,6 @@
     - TwingateVPN:
         href: https://adrieit.twingate.com/
         icon: twingate
-    - nginx-proxy-manager:
-        href: http://192.168.0.21:181
-        ping: https://192.168.0.21:180
-        icon: nginx-proxy-manager
     - Cronicle:
         href: http://192.168.0.21:3012
         ping: http://192.168.0.21:3012
@@ -145,10 +141,10 @@
           type: changedetectionio
           url: http://192.168.0.21:5000
           key: {{HOMEPAGE_VAR_CHANGEDETECTION_KEY}}
-    - Ansible Semaphore:
-        href: http://192.168.0.21:3000
-        ping: http://192.168.0.21:3000
-        icon: semaphore
+    - Baikal:
+        href: 192.168.0.21:49695
+        ping: 192.168.0.21:49695
+        icon: https://raw.githubusercontent.com/101br03k/docker-setup/main/dashboard-icons/baikal.png
         
 - Overig:
     - Spotify Buddylist:
