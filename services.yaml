@@ -193,6 +193,11 @@
         href: http://192.168.0.179:8000
         ping: http://192.168.0.179:8000
         icon: readthedocs
+        id: upsidedown
+    - Code-server-dev:
+        href: http://192.168.0.21:5443/?folder=/docker
+        ping: http://192.168.0.21:5443
+        icon: code-server
     - pgAdmin:
         description: postgreSQL management
         href: http://192.168.0.179:8888
