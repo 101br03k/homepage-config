@@ -149,6 +149,10 @@
         icon: https://raw.githubusercontent.com/101br03k/docker-setup/main/dashboard-icons/baikal.png
         
 - Overig:
+    - Yamtrack:
+        href: http://192.168.0.21:13336
+        ping: http://192.168.0.21:13336
+        icon: http://192.168.0.21:13336/static/favicon/favicon-32x32.png
     - Spotify Buddylist:
         href: http://192.168.0.21:10000
         ping: http://192.168.0.21:10000
