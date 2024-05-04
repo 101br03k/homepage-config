@@ -195,8 +195,8 @@
         icon: readthedocs
         id: upsidedown
     - Code-server-dev:
-        href: http://192.168.0.21:5443/?folder=/docker
-        ping: http://192.168.0.21:5443
+        href: http://192.168.0.179:5443/?folder=/docker
+        ping: http://192.168.0.179:5443
         icon: code-server
     - pgAdmin:
         description: postgreSQL management
