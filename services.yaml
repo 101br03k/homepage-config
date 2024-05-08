@@ -36,6 +36,7 @@
         ping: http://192.168.0.51/admin/
         icon: pi-hole
 
+
 - Monitoring:
     - Dozzle:
         description: Web-based live Docker log viewer.
@@ -92,10 +93,20 @@
         href: http://192.168.0.22:8989
         ping: http://192.168.0.22:8989
         icon: sonarr
+        id: removestats
+        widget:
+            type: sonarr
+            url: http://192.168.0.22:8989
+            key: {{HOMEPAGE_VAR_SONARR_API}}
     - Radarr:
         href: http://192.168.0.22:7878
         ping: http://192.168.0.22:7878
         icon: radarr
+        id: removestats
+        widget:
+            type: radarr
+            url: http://192.168.0.22:7878
+            key: {{HOMEPAGE_VAR_RADARR_API}}
 #    - Readarr:
 #        href: http://192.168.0.22:8787
 #        ping: http://192.168.0.22:8787
@@ -195,8 +206,8 @@
         icon: readthedocs
         id: upsidedown
     - Code-server-dev:
-        href: http://192.168.0.179:5443/?folder=/docker
-        ping: http://192.168.0.179:5443
+        href: http://192.168.0.21:5443/?folder=/docker
+        ping: http://192.168.0.21:5443
         icon: code-server
     - pgAdmin:
         description: postgreSQL management
@@ -216,8 +227,25 @@
         href: http://192.168.0.179:5500
         ping: http://192.168.0.179:5500
 
-- Placeholder:
-    - Placeholder:
+- Upcoming: # This should match the group where Sonarr is configured
+    - Calendar:
+        widget:
+          type: calendar
+          view: agenda # or 'agenda' if you prefer a list view
+          showTime: true # to show event times
+          integrations:
+            - type: sonarr
+              service_group: Media & Data 1 # This should match the group name where Sonarr is configured
+              service_name: Sonarr # This should match the service name used for Sonarr
+              color: teal # You can choose a color for the events from Sonarr
+              params:
+                unmonitored: true # Optional parameter for Sonarr
+            - type: radarr
+              service_group: Media & Data 1 # This should match the group name where Sonarr is configured
+              service_name: Radarr # This should match the service name used for Sonarr
+              color: indigo # You can choose a color for the events from Sonarr
+              params:
+                unmonitored: true # Optional parameter for Sonarr
 
 - Pihole:
    - Pi-Hole:
