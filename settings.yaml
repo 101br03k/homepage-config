@@ -39,7 +39,7 @@ layout:
       tab: Main
       icon: https://raw.githubusercontent.com/101br03k/docker-setup/main/dashboard-icons/code-tech-dev-icon-512x512-white.png
 
-    Placeholder:
+    Upcoming:
       tab: Main
 
     Pihole:
