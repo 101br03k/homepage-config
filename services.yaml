@@ -38,7 +38,6 @@
 
 - Monitoring:
     - Dozzle:
-        description: Web-based live Docker log viewer.
         href: http://192.168.0.21:9999
         ping: http://192.168.0.21:9999
         icon: dozzle
@@ -48,7 +47,6 @@
         ping: http://192.168.0.21:61208
         icon: glances
     - Speedtest-tracker:
-        description: Speedtest-tracker and database
         href: http://192.168.0.21:8080
         ping: http://192.168.0.21:8080
         icon: speedtest-tracker-old
