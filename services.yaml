@@ -93,20 +93,11 @@
         href: http://192.168.0.22:8989
         ping: http://192.168.0.22:8989
         icon: sonarr
-        id: removestats
-        widget:
-            type: sonarr
-            url: http://192.168.0.22:8989
-            key: {{HOMEPAGE_VAR_SONARR_API}}
+
     - Radarr:
         href: http://192.168.0.22:7878
         ping: http://192.168.0.22:7878
         icon: radarr
-        id: removestats
-        widget:
-            type: radarr
-            url: http://192.168.0.22:7878
-            key: {{HOMEPAGE_VAR_RADARR_API}}
 #    - Readarr:
 #        href: http://192.168.0.22:8787
 #        ping: http://192.168.0.22:8787
@@ -227,25 +218,27 @@
         href: http://192.168.0.179:5500
         ping: http://192.168.0.179:5500
 
-- Upcoming: # This should match the group where Sonarr is configured
+- Upcoming:
     - Calendar:
         widget:
           type: calendar
-          view: agenda # or 'agenda' if you prefer a list view
-          showTime: true # to show event times
+          view: agenda
+          showTime: true
           integrations:
-            - type: sonarr
-              service_group: Media & Data 1 # This should match the group name where Sonarr is configured
-              service_name: Sonarr # This should match the service name used for Sonarr
-              color: teal # You can choose a color for the events from Sonarr
-              params:
-                unmonitored: true # Optional parameter for Sonarr
-            - type: radarr
-              service_group: Media & Data 1 # This should match the group name where Sonarr is configured
-              service_name: Radarr # This should match the service name used for Sonarr
-              color: indigo # You can choose a color for the events from Sonarr
-              params:
-                unmonitored: true # Optional parameter for Sonarr
+            - type: ical
+              name: Sonarr
+              url: http://192.168.0.22:8989/feed/calendar/Sonarr.ics?unmonitored=true&apikey=998058b2b15843ad9a9e08c48c1c30b4
+              color: teal
+            - type: ical
+              name: Radarr
+              url: http://192.168.0.22:7878/feed/v3/calendar/Radarr.ics?unmonitored=true&apikey=208fe06aea60416bb07dd82069986c82
+              color: indigo
+            - type: ical
+              url: https://raw.githubusercontent.com/PanderMusubi/lunar-phase-calendar/master/es/moon-phases-all.ics
+              color: blue
+              name: Moon Phases
+              showName: true
+              
 
 - Pihole:
    - Pi-Hole:
