@@ -23,6 +23,10 @@
         href: https://192.168.0.21:9443
         ping: https://192.168.0.21:9443
         icon: portainer
+    - Home Assistant:
+        href: http://192.168.0.21:8123
+        ping: http://192.168.0.21:8123
+        icon: home-assistant
     - Docker Pi-Hole:
         href: http://192.168.0.21/admin/
         ping: http://192.168.0.21/admin/
