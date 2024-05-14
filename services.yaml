@@ -73,7 +73,8 @@
         description: external monitoring
     - Dockcheck-web:
         href: http://192.168.0.21:20012
-        ping: http://192.168.0.21:20012/
+        ping: http://192.168.0.21:20012
+        icon: docker-moby
 
 - Media & Data 1:
     - Qbittorrent:
