@@ -312,26 +312,31 @@
          type: glances
          url: http://192.168.0.21:61208
          metric: info
+         version: 4
    - CPU Usage:
        widget:
          type: glances
          url: http://192.168.0.21:61208
          metric: cpu
          chart: false
+         version: 4
    - Memory Usage:
        widget:
          type: glances
          url: http://192.168.0.21:61208
          metric: memory
          chart: false
+         version: 4
    - Process Usage:
        widget:
          type: glances
          url: http://192.168.0.21:61208
          metric: process
+         version: 4
    - Network Usage:
        widget:
          type: glances
          url: http://192.168.0.21:61208
          metric: network:eth0
          chart: false
+         version: 4
