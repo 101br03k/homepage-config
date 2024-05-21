@@ -221,7 +221,7 @@
           type: calendar
           view: agenda
           showTime: true
-          maxEvents: 18
+          maxEvents: 15
           integrations:
             - type: ical
               name: Sonarr
