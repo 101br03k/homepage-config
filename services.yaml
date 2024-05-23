@@ -41,6 +41,9 @@
         icon: pi-hole
 
 - Monitoring:
+    - CrowdSec:
+        href: https://app.crowdsec.net/security-engines
+        icon: crowdsec
     - Dozzle:
         href: http://192.168.0.21:9999
         ping: http://192.168.0.21:9999
