@@ -42,7 +42,7 @@
 
 - Monitoring:
     - CrowdSec:
-        href: https://app.crowdsec.net/security-engines
+        href: https://app.crowdsec.net/alerts
         icon: crowdsec
     - Dozzle:
         href: http://192.168.0.21:9999
