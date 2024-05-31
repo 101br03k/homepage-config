@@ -173,10 +173,6 @@
           username: {{HOMEPAGE_VAR_MAIL}}
           password: {{HOMEPAGE_VAR_PASSWORD}}
           fields: ["items", "locations", "totalWithWarranty"] # optional - default fields shown
-    - draw.io:
-        href: http://192.168.0.21:44594
-        ping: https://192.168.0.21:44594
-        icon: draw-io
     - rembg-webapp:
         href: http://192.168.0.21:5100
         ping: http://192.168.0.21:5100
