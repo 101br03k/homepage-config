@@ -230,11 +230,6 @@
               name: Radarr
               url: http://192.168.0.22:7878/feed/v3/calendar/Radarr.ics?unmonitored=true&apikey=208fe06aea60416bb07dd82069986c82
               color: indigo
-            - type: ical
-              url: https://raw.githubusercontent.com/PanderMusubi/lunar-phase-calendar/master/es/moon-phases-all.ics
-              color: blue
-              name: Moon Phases
-              showName: true
               
 - Pihole:
    - Pi-Hole:
