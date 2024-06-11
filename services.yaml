@@ -54,12 +54,12 @@
         ping: http://192.168.0.21:61208
         icon: glances
     - Speedtest-tracker:
-        href: http://192.168.0.21:8080
-        ping: http://192.168.0.21:8080
+        href: http://192.168.0.21:26144
+        ping: http://192.168.0.21:26144
         icon: speedtest-tracker-old
         widget:
           type: speedtest
-          url: http://192.168.0.21:8080
+          url: http://192.168.0.21:26144
           fields: ["download", "upload", "ping"]
     - Watch Your Lan:
         href: http://192.168.0.21:8840/line/?state=on
