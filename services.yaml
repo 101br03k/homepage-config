@@ -263,7 +263,6 @@
    - Speedtest-tracker:
         description: Speedtest-tracker and database
         ping: http://192.168.0.21:26144
-        ping: http://192.168.0.21:26144
         icon: speedtest-tracker-old
         widget:
           type: speedtest
