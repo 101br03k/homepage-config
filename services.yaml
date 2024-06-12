@@ -267,7 +267,7 @@
         icon: speedtest-tracker-old
         widget:
           type: speedtest
-          url: http://192.168.0.21:8080
+          ping: http://192.168.0.21:26144
           fields: ["download", "upload", "ping"]
    - Uptime Kuma - Docker Containers:
         href: http://192.168.0.21:3001/status/docker
