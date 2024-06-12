@@ -261,12 +261,12 @@
 
 - Stats:
    - Speedtest-tracker:
-        description: Speedtest-tracker and database
+        href: http://192.168.0.21:26144
         ping: http://192.168.0.21:26144
         icon: speedtest-tracker-old
         widget:
           type: speedtest
-          ping: http://192.168.0.21:26144
+          url: http://192.168.0.21:26144
           fields: ["download", "upload", "ping"]
    - Uptime Kuma - Docker Containers:
         href: http://192.168.0.21:3001/status/docker
