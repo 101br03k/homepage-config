@@ -240,24 +240,24 @@
           url: http://192.168.0.21/
           key: {{HOMEPAGE_VAR_PIHOLE_API_100_DOCKER}}
           fields: ["queries", "blocked", "blocked_percent", "gravity"]
-   - Pi-Hole 150-01:
-        href: http://192.168.0.50/admin/
-        ping: http://192.168.0.50/admin/
-        icon: pi-hole
-        widget:
-          type: pihole
-          url: http://192.168.0.50/
-          key: {{HOMEPAGE_VAR_PIHOLE_API_150}}
-          fields: ["queries", "blocked", "blocked_percent", "gravity"]
-   - Pi-Hole 151-02:
-        href: http://192.168.0.51/admin/
-        ping: http://192.168.0.51/admin/
-        icon: pi-hole
-        widget:
-          type: pihole
-          url: http://192.168.0.51/
-          key: {{HOMEPAGE_VAR_PIHOLE_API_151}}
-          fields: ["queries", "blocked", "blocked_percent", "gravity"]
+#   - Pi-Hole 150-01:
+#        href: http://192.168.0.50/admin/
+#        ping: http://192.168.0.50/admin/
+#        icon: pi-hole
+#        widget:
+#          type: pihole
+#          url: http://192.168.0.50/
+#          key: {{HOMEPAGE_VAR_PIHOLE_API_150}}
+#          fields: ["queries", "blocked", "blocked_percent", "gravity"]
+#   - Pi-Hole 151-02:
+#        href: http://192.168.0.51/admin/
+#        ping: http://192.168.0.51/admin/
+#        icon: pi-hole
+#        widget:
+#          type: pihole
+#          url: http://192.168.0.51/
+#          key: {{HOMEPAGE_VAR_PIHOLE_API_151}}
+#          fields: ["queries", "blocked", "blocked_percent", "gravity"]
 
 - Stats:
    - Speedtest-tracker:
