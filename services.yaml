@@ -83,31 +83,21 @@
           password: {{HOMEPAGE_VAR_PASSWORD}}
     - Prowlarr:
         description: An indexer manager made integrate with your PVR apps.
-        href: http://192.168.0.22:9696
-        ping: http://192.168.0.22:9696
+        href: http://192.168.0.12:30050
+        ping: http://192.168.0.12:30050
         icon: prowlarr
     - Sonarr:
-        href: http://192.168.0.22:8989
-        ping: http://192.168.0.22:8989
+        href: http://192.168.0.12:30027
+        ping: http://192.168.0.12:30027
         icon: sonarr
     - Radarr:
-        href: http://192.168.0.22:7878
-        ping: http://192.168.0.22:7878
+        href: http://192.168.0.12:30025
+        ping: http://192.168.0.12:30025
         icon: radarr
     - Readarr:
-        href: http://192.168.0.22:8787
-        ping: http://192.168.0.22:8787
+        href: http://192.168.0.12:30045
+        ping: http://192.168.0.12:30045
         icon: readarr
-#    - Lidarr:
-#        description: Music management
-#        href: http://192.168.0.22:8686
-#        ping: http://192.168.0.22:8686
-#        icon: lidarr
-    - Bazarr:
-        description: Subtitle management
-        href: http://192.168.0.22:6767
-        ping: http://192.168.0.22:6767
-        icon: bazarr
     - pgAdmin:
         description: postgreSQL management
         href: http://192.168.0.11:8888
