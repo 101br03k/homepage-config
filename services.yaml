@@ -16,20 +16,20 @@
         href: http://192.168.0.15/
         icon: printer
     - Dockge:
-        href: http://192.168.0.21:5001
-        ping: http://192.168.0.21:5001
+        href: http://192.168.0.11:5001
+        ping: http://192.168.0.11:5001
         icon: dockge-light
     - Portainer:
-        href: https://192.168.0.21:9443
-        ping: https://192.168.0.21:9443
+        href: https://192.168.0.11:9443
+        ping: https://192.168.0.11:9443
         icon: portainer
     - Home Assistant:
-        href: http://192.168.0.195:8123
-        ping: http://192.168.0.195:8123
+        href: http://192.168.0.31:8123
+        ping: http://192.168.0.31:8123
         icon: home-assistant
     - Docker Pi-Hole:
-        href: http://192.168.0.21/admin/
-        ping: http://192.168.0.21/admin/
+        href: http://192.168.0.11/admin/
+        ping: http://192.168.0.11/admin/
         icon: pi-hole
 
 - Monitoring:
@@ -37,29 +37,29 @@
         href: https://app.crowdsec.net/alerts
         icon: crowdsec
     - Dozzle:
-        href: http://192.168.0.21:9999
-        ping: http://192.168.0.21:9999
+        href: http://192.168.0.11:9999
+        ping: http://192.168.0.11:9999
         icon: dozzle
     - Glances:
         description: Monitoring tool served through web based interface
-        href: http://192.168.0.21:61208
-        ping: http://192.168.0.21:61208
+        href: http://192.168.0.11:61208
+        ping: http://192.168.0.11:61208
         icon: glances
     - Speedtest-tracker:
-        href: http://192.168.0.21:26144
-        ping: http://192.168.0.21:26144
+        href: http://192.168.0.11:26144
+        ping: http://192.168.0.11:26144
         icon: speedtest-tracker-old
         widget:
           type: speedtest
-          url: http://192.168.0.21:26144
+          url: http://192.168.0.11:26144
           fields: ["download", "upload", "ping"]
     - Watch Your Lan:
-        href: http://192.168.0.21:8840/line/?state=on
-        ping: http://192.168.0.21:8840
+        href: http://192.168.0.11:8840/line/?state=on
+        ping: http://192.168.0.11:8840
         icon: https://raw.githubusercontent.com/101br03k/docker-setup/main/dashboard-icons/WatchYourLan.png
     - Uptime Kuma:
-        href: http://192.168.0.21:3001
-        ping : http://192.168.0.21:3001
+        href: http://192.168.0.11:3001
+        ping : http://192.168.0.11:3001
         icon: uptime-kuma
         description: internal monitoring
     - Uptime Robot:
@@ -67,8 +67,8 @@
         icon: https://raw.githubusercontent.com/101br03k/docker-setup/main/dashboard-icons/uptime-robot.png
         description: external monitoring
     - Dockcheck-web:
-        href: http://192.168.0.21:20012
-        ping: http://192.168.0.21:20012
+        href: http://192.168.0.11:20012
+        ping: http://192.168.0.11:20012
         icon: docker-moby
 
 - Media & Data 1:
@@ -110,72 +110,72 @@
         icon: bazarr
     - pgAdmin:
         description: postgreSQL management
-        href: http://192.168.0.21:8888
-        ping: http://192.168.0.21:8888
+        href: http://192.168.0.11:8888
+        ping: http://192.168.0.11:8888
         icon: postgres
 
 - Media & Data 2:
     - Duplicati:
-        href: http://192.168.0.21:8200
-        ping: http://192.168.0.21:8200
+        href: http://192.168.0.11:8200
+        ping: http://192.168.0.11:8200
         icon: duplicati
     - Duplicati Monitoring:
         href: https://www.duplicati-monitoring.com/overview
         icon: https://raw.githubusercontent.com/101br03k/docker-setup/main/dashboard-icons/duplicati-monitoring.png
     - Code-server:
-        href: http://192.168.0.21:5443/?folder=/docker
-        ping: http://192.168.0.21:5443
+        href: http://192.168.0.11:5443/?folder=/docker
+        ping: http://192.168.0.11:5443
         icon: code-server
     - TwingateVPN:
         href: https://adrieit.twingate.com/
         icon: twingate
     - Cronicle:
-        href: http://192.168.0.21:3012
-        ping: http://192.168.0.21:3012
+        href: http://192.168.0.11:3012
+        ping: http://192.168.0.11:3012
         icon: https://raw.githubusercontent.com/101br03k/docker-setup/main/dashboard-icons/cronjob.svg
     - ChangeDetection.IO: 
-        href: http://192.168.0.21:5000
-        ping: http://192.168.0.21:5000
+        href: http://192.168.0.11:5000
+        ping: http://192.168.0.11:5000
         icon: changedetection-io
         widget:
           type: changedetectionio
-          url: http://192.168.0.21:5000
+          url: http://192.168.0.11:5000
           key: {{HOMEPAGE_VAR_CHANGEDETECTION_KEY}}
         
 - Overig:
     - Yamtrack:
-        href: http://192.168.0.21:13336
-        ping: http://192.168.0.21:13336
-        icon: http://192.168.0.21:13336/static/favicon/favicon-32x32.png
+        href: http://192.168.0.11:13336
+        ping: http://192.168.0.11:13336
+        icon: http://192.168.0.11:13336/static/favicon/favicon-32x32.png
     - Spotify Buddylist:
-        href: http://192.168.0.21:10000
-        ping: http://192.168.0.21:10000
+        href: http://192.168.0.11:10000
+        ping: http://192.168.0.11:10000
         icon: spotify
     - Tasks.md:
-        href: http://192.168.0.21:46882
-        ping: http://192.168.0.21:46882
+        href: http://192.168.0.11:46882
+        ping: http://192.168.0.11:46882
         icon: https://raw.githubusercontent.com/101br03k/docker-setup/main/dashboard-icons/md.png
     - Homebox:
-        href: http://192.168.0.21:3100
-        ping: http://192.168.0.21:3100
+        href: http://192.168.0.11:3100
+        ping: http://192.168.0.11:3100
         icon: homebox
         widget:
           type: homebox
-          url: http://192.168.0.21:3100
+          url: http://192.168.0.11:3100
           username: {{HOMEPAGE_VAR_MAIL}}
           password: {{HOMEPAGE_VAR_PASSWORD}}
           fields: ["items", "locations", "totalWithWarranty"] # optional - default fields shown
     - rembg-webapp:
-        href: http://192.168.0.21:5100
-        ping: http://192.168.0.21:5100
+        href: http://192.168.0.11:5100
+        ping: http://192.168.0.11:5100
         icon: python
     - nginx-up-page:
-        href: http://192.168.0.21:5200
-        ping: http://192.168.0.21:5200
+        href: http://192.168.0.11:5200
+        ping: http://192.168.0.11:5200
         icon: nginx
     - Firefox:
-        href: https://192.168.0.21:6902
-        ping: https://192.168.0.21:6902
+        href: https://192.168.0.11:6902
+        ping: https://192.168.0.11:6902
         icon: https://raw.githubusercontent.com/101br03k/docker-setup/main/dashboard-icons/firefox-logo-1000x1032.png
 
 - Dev:
@@ -184,8 +184,8 @@
         ping: http://192.168.0.179:8000
         icon: readthedocs
     - Code-server-dev:
-        href: http://192.168.0.21:5443/?folder=/docker
-        ping: http://192.168.0.21:5443
+        href: http://192.168.0.11:5443/?folder=/docker
+        ping: http://192.168.0.11:5443
         icon: code-server
     - pgAdmin:
         description: postgreSQL management
@@ -224,31 +224,31 @@
               
 - Pihole:
    - Pi-Hole:
-        href: http://192.168.0.21/admin/
-        ping: http://192.168.0.21/admin/
+        href: http://192.168.0.11/admin/
+        ping: http://192.168.0.11/admin/
         icon: pi-hole
         widget:
           type: pihole
-          url: http://192.168.0.21/
+          url: http://192.168.0.11/
           key: {{HOMEPAGE_VAR_PIHOLE_API_100_DOCKER}}
           fields: ["queries", "blocked", "blocked_percent", "gravity"]
           
 - Stats:
    - Speedtest-tracker:
-        href: http://192.168.0.21:26144
-        ping: http://192.168.0.21:26144
+        href: http://192.168.0.11:26144
+        ping: http://192.168.0.11:26144
         icon: speedtest-tracker-old
         widget:
           type: speedtest
-          url: http://192.168.0.21:26144
+          url: http://192.168.0.11:26144
           fields: ["download", "upload", "ping"]
    - Uptime Kuma - Docker Containers:
-        href: http://192.168.0.21:3001/status/docker
-        ping: http://192.168.0.21:3001
+        href: http://192.168.0.11:3001/status/docker
+        ping: http://192.168.0.11:3001
         icon: uptime-kuma
         widget:
           type: uptimekuma
-          url: http://192.168.0.21:3001
+          url: http://192.168.0.11:3001
           slug: docker
           fields: ["up", "down", "uptime", "incident"]
    - Uptime Robot:
@@ -272,38 +272,38 @@
 - Glances:
    - Glances:
        description: A monitoring tool that presents information through a Web based interface.
-       href: http://192.168.0.21:61208
-       ping: http://192.168.0.21:61208
+       href: http://192.168.0.11:61208
+       ping: http://192.168.0.11:61208
        icon: glances
        widget:
          type: glances
-         url: http://192.168.0.21:61208
+         url: http://192.168.0.11:61208
          metric: info
          version: 4
    - CPU Usage:
        widget:
          type: glances
-         url: http://192.168.0.21:61208
+         url: http://192.168.0.11:61208
          metric: cpu
          chart: false
          version: 4
    - Memory Usage:
        widget:
          type: glances
-         url: http://192.168.0.21:61208
+         url: http://192.168.0.11:61208
          metric: memory
          chart: false
          version: 4
    - Process Usage:
        widget:
          type: glances
-         url: http://192.168.0.21:61208
+         url: http://192.168.0.11:61208
          metric: process
          version: 4
    - Network Usage:
        widget:
          type: glances
-         url: http://192.168.0.21:61208
+         url: http://192.168.0.11:61208
          metric: network:eth0
          chart: false
          version: 4
