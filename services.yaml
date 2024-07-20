@@ -45,14 +45,6 @@
         href: http://192.168.0.21:61208
         ping: http://192.168.0.21:61208
         icon: glances
-    - Speedtest-tracker:
-        href: http://192.168.0.21:26144
-        ping: http://192.168.0.21:26144
-        icon: speedtest-tracker-old
-        widget:
-          type: speedtest
-          url: http://192.168.0.21:26144
-          fields: ["download", "upload", "ping"]
     - Watch Your Lan:
         href: http://192.168.0.21:8840/line/?state=on
         ping: http://192.168.0.21:8840
@@ -66,10 +58,6 @@
         href: https://beta-app.uptimerobot.com/monitors
         icon: https://raw.githubusercontent.com/101br03k/docker-setup/main/dashboard-icons/uptime-robot.png
         description: external monitoring
-    - Dockcheck-web:
-        href: http://192.168.0.21:20012
-        ping: http://192.168.0.21:20012
-        icon: docker-moby
 
 - Media & Data 1:
     - Qbittorrent:
@@ -115,20 +103,10 @@
         icon: postgres
 
 - Media & Data 2:
-    - Duplicati:
-        href: http://192.168.0.21:8200
-        ping: http://192.168.0.21:8200
-        icon: duplicati
-    - Duplicati Monitoring:
-        href: https://www.duplicati-monitoring.com/overview
-        icon: https://raw.githubusercontent.com/101br03k/docker-setup/main/dashboard-icons/duplicati-monitoring.png
     - Code-server:
         href: http://192.168.0.21:5443/?folder=/docker
         ping: http://192.168.0.21:5443
         icon: code-server
-    - TwingateVPN:
-        href: https://adrieit.twingate.com/
-        icon: twingate
     - Cronicle:
         href: http://192.168.0.21:3012
         ping: http://192.168.0.21:3012
