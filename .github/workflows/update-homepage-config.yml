@@ -3,7 +3,7 @@ name: Update Docker Compose File
 on:
   push:
     branches:
-      - main
+      - migrate-to-pve
 
 jobs:
   deploy:
@@ -18,7 +18,7 @@ jobs:
         with:
           user: adm-aw
           host: 192.168.0.21
-          key: ${{ secrets.SSH_paulus_100_docker }}
+          key: ${{ secrets.SSH_pve_100_docker }}
           pass: ${{ secrets.pass_docker_100 }}
           command: |
             cd /docker/homepage-config/
