@@ -212,22 +212,22 @@
         href: http://192.168.0.179:5500
         ping: http://192.168.0.179:5500
 
-- Upcoming:
-    - Calendar:
-        widget:
-          type: calendar
-          view: agenda
-          showTime: true
-          maxEvents: 15
-          integrations:
-            - type: ical
-              name: Sonarr
-              url: http://192.168.0.22:8989/feed/calendar/Sonarr.ics?unmonitored=true&apikey=998058b2b15843ad9a9e08c48c1c30b4
-              color: teal
-            - type: ical
-              name: Radarr
-              url: http://192.168.0.22:7878/feed/v3/calendar/Radarr.ics?unmonitored=true&apikey=208fe06aea60416bb07dd82069986c82
-              color: indigo
+#- Upcoming:
+#    - Calendar:
+#        widget:
+#          type: calendar
+#          view: agenda
+#          showTime: true
+#          maxEvents: 15
+#          integrations:
+#            - type: ical
+#              name: Sonarr
+#              url: http://192.168.0.22:8989/feed/calendar/Sonarr.ics?unmonitored=true&apikey=998058b2b15843ad9a9e08c48c1c30b4
+#              color: teal
+#            - type: ical
+#              name: Radarr
+#              url: http://192.168.0.22:7878/feed/v3/calendar/Radarr.ics?unmonitored=true&apikey=208fe06aea60416bb07dd82069986c82
+#              color: indigo
               
 - Pihole:
    - Pi-Hole:
