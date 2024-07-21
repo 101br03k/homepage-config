@@ -72,6 +72,15 @@
         icon: docker-moby
 
 - Media & Data 1:
+    - Truenas Scale:
+        icon: truenas
+        widget:
+          type: truenas
+          url: http://192.168.0.12
+          key:  {{HOMEPAGE_VAR_TRUENAS_KEY}} #not required if using username / password
+          enablePools: true # optional, defaults to false
+          nasType: scale # defaults to scale, must be set to 'core' if using enablePools with TrueNAS Core
+          fields: ["load", "uptime", "alerts"]
     - Qbittorrent:
         href: http://192.168.0.22:18080
         ping: http://192.168.0.22:18080
