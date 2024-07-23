@@ -70,17 +70,10 @@
         icon: docker-moby
 
 - Media & Data 1:
-    - Truenas Scale:
-        icon: truenas
-        href: http://192.168.0.12
-        ping: http://192.168.0.12
-        widget:
-          type: truenas
-          url: http://192.168.0.12
-          key:  {{HOMEPAGE_VAR_TRUENAS_KEY}} #not required if using username / password
-          enablePools: true # optional, defaults to false
-          nasType: scale # defaults to scale, must be set to 'core' if using enablePools with TrueNAS Core
-          fields: ["load", "uptime", "alerts"]
+    - CasaOS:
+        icon: casaos
+        href: http://192.168.0.13
+        ping: http://192.168.0.13
     - Qbittorrent:
         href: http://192.168.0.22:18080
         ping: http://192.168.0.22:18080
@@ -92,20 +85,20 @@
           password: {{HOMEPAGE_VAR_PASSWORD}}
     - Prowlarr:
         description: An indexer manager made integrate with your PVR apps.
-        href: http://192.168.0.12:30050
-        ping: http://192.168.0.12:30050
+        href: http://192.168.0.13:9696
+        ping: http://192.168.0.13:9696
         icon: prowlarr
     - Sonarr:
-        href: http://192.168.0.12:30027
-        ping: http://192.168.0.12:30027
+        href: http://192.168.0.13:8989
+        ping: http://192.168.0.13:8989
         icon: sonarr
     - Radarr:
-        href: http://192.168.0.12:30025
-        ping: http://192.168.0.12:30025
+        href: http://192.168.0.13:7878
+        ping: http://192.168.0.13:7878
         icon: radarr
     - Readarr:
-        href: http://192.168.0.12:30045
-        ping: http://192.168.0.12:30045
+        href: http://192.168.0.13:8787
+        ping: http://192.168.0.13:8787
         icon: readarr
     - pgAdmin:
         description: postgreSQL management
