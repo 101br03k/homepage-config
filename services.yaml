@@ -12,9 +12,10 @@
         href: http://192.168.0.5/
         ping: http://192.168.0.5/
         icon: router
-    - HP Envy 4520:
-        href: http://192.168.0.15/
-        icon: printer
+    - PVE-Paulus:
+        href: http://192.168.0.10:8006
+        ping: http://192.168.0.10:8006
+        icon: proxmox
     - Dockge:
         href: http://192.168.0.11:5001
         ping: http://192.168.0.11:5001
