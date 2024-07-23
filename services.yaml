@@ -78,11 +78,6 @@
         href: http://192.168.0.22:18080
         ping: http://192.168.0.22:18080
         icon: qbittorrent
-        widget:
-          type: qbittorrent
-          url: http://192.168.0.22:18080
-          username: {{HOMEPAGE_VAR_USERNAME}}
-          password: {{HOMEPAGE_VAR_PASSWORD}}
     - Prowlarr:
         description: An indexer manager made integrate with your PVR apps.
         href: http://192.168.0.13:9696
