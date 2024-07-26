@@ -75,8 +75,8 @@
         href: http://192.168.0.13
         ping: http://192.168.0.13
     - Qbittorrent:
-        href: http://192.168.0.22:18080
-        ping: http://192.168.0.22:18080
+        href: http://192.168.0.14:18080
+        ping: http://192.168.0.14:18080
         icon: qbittorrent
     - Prowlarr:
         description: An indexer manager made integrate with your PVR apps.
