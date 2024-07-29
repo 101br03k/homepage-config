@@ -39,7 +39,6 @@
         ping: http://192.168.0.11:9999
         icon: dozzle
     - Glances:
-        description: Monitoring tool served through web based interface
         href: http://192.168.0.11:61208
         ping: http://192.168.0.11:61208
         icon: glances
@@ -79,7 +78,6 @@
         ping: http://192.168.0.14:18080
         icon: qbittorrent
     - Prowlarr:
-        description: An indexer manager made integrate with your PVR apps.
         href: http://192.168.0.13:9696
         ping: http://192.168.0.13:9696
         icon: prowlarr
