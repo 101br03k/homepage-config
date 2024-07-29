@@ -1,4 +1,4 @@
-name: Update Docker Compose File
+name: Download new HomePage config
 
 on:
   push:
@@ -13,7 +13,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
 
-      - name: Download new Homepage config
+      - name: Download new HomePage config
         uses: fifsky/ssh-action@master
         with:
           user: adm-aw
