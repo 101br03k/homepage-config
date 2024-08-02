@@ -172,7 +172,7 @@
         ping: https://192.168.0.11:6902
         icon: https://raw.githubusercontent.com/101br03k/docker-setup/main/dashboard-icons/firefox-logo-1000x1032.png
 
-- Dev:
+- </> Dev:
     - Docker Docs:
         href: http://192.168.0.179:8000
         ping: http://192.168.0.179:8000
