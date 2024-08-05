@@ -11,10 +11,6 @@ background:
   saturate: 100 # 0, 50, 100... see https://tailwindcss.com/docs/backdrop-saturate
   brightness: 50 # 0, 50, 75... see https://tailwindcss.com/docs/backdrop-brightness
   opacity: 100 # 0-100
-
-providers:
-  openweathermap: 758ae83bd14f27b7ffe0b70e2b332866
-  weatherapi: 758ae83bd14f27b7ffe0b70e2b332866
   
 layout:
     Bookmark Group on First Tab: 
