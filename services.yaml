@@ -93,11 +93,6 @@
         href: http://192.168.0.13:8787
         ping: http://192.168.0.13:8787
         icon: readarr
-    - pgAdmin:
-        description: postgreSQL management
-        href: http://192.168.0.11:8888
-        ping: http://192.168.0.11:8888
-        icon: postgres
 
 - Media & Data 2:
     - Duplicati:
