@@ -210,17 +210,6 @@
 #              name: Radarr
 #              url: http://192.168.0.22:7878/feed/v3/calendar/Radarr.ics?unmonitored=true&apikey=208fe06aea60416bb07dd82069986c82
 #              color: indigo
-              
-- Pihole:
-   - Pi-Hole:
-        href: http://192.168.0.11/admin/
-        ping: http://192.168.0.11/admin/
-        icon: pi-hole
-        widget:
-          type: pihole
-          url: http://192.168.0.11/
-          key: {{HOMEPAGE_VAR_PIHOLE_API_100_DOCKER}}
-          fields: ["queries", "blocked", "blocked_percent", "gravity"]
           
 - Stats:
    - Speedtest-tracker:
