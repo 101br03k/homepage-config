@@ -8,7 +8,6 @@
         href: http://192.168.0.1/
         icon: router
     - MikroTik RB260G:
-        description: Switch
         href: http://192.168.0.5/
         ping: http://192.168.0.5/
         icon: router
@@ -58,11 +57,9 @@
         href: http://192.168.0.11:3001
         ping : http://192.168.0.11:3001
         icon: uptime-kuma
-        description: internal monitoring
     - Uptime Robot:
         href: https://beta-app.uptimerobot.com/monitors
         icon: https://raw.githubusercontent.com/101br03k/docker-setup/main/dashboard-icons/uptime-robot.png
-        description: external monitoring
     - Dockcheck-web:
         href: http://192.168.0.11:20012
         ping: http://192.168.0.11:20012
@@ -177,14 +174,9 @@
         ping: http://192.168.0.179:8000
         icon: readthedocs
     - Code-server-dev:
-        href: http://192.168.0.11:5443/?folder=/docker
-        ping: http://192.168.0.11:5443
+        href: http://192.168.0.179:5443/?folder=/docker
+        ping: http://192.168.0.179:5443
         icon: code-server
-    - pgAdmin:
-        description: postgreSQL management
-        href: http://192.168.0.179:8888
-        ping: http://192.168.0.179:8888
-        icon: https://raw.githubusercontent.com/101br03k/docker-setup/main/dashboard-icons/postgres_alternative.png
     - rembg-webapp:
         href: http://192.168.0.179:5100
         ping: http://192.168.0.179:5100
@@ -236,7 +228,6 @@
    - Uptime Robot:
         href: https://beta-app.uptimerobot.com/monitors
         icon: https://raw.githubusercontent.com/101br03k/docker-setup/main/dashboard-icons/uptime-robot.png
-        description: external (ping) monitoring
         widget:
           type: uptimerobot
           url: https://api.uptimerobot.com
