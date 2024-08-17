@@ -151,6 +151,10 @@
         href: http://192.168.0.11:46882
         ping: http://192.168.0.11:46882
         icon: https://raw.githubusercontent.com/101br03k/docker-setup/main/dashboard-icons/md.png
+    - ConvertX:
+        href: http://192.168.0.11:3000/
+        ping: http://192.168.0.11:3000/
+        icon: http://192.168.0.11:3000/favicon-32x32.png
     - rembg-webapp:
         href: http://192.168.0.11:5100
         ping: http://192.168.0.11:5100
