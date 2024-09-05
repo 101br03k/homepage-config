@@ -58,7 +58,7 @@
         ping : http://192.168.0.11:3001
         icon: uptime-kuma
     - Uptime Robot:
-        href: https://beta-app.uptimerobot.com/monitors
+        href: https://dashboard.uptimerobot.com/monitors
         icon: https://raw.githubusercontent.com/101br03k/docker-setup/main/dashboard-icons/uptime-robot.png
     - Dockcheck-web:
         href: http://192.168.0.11:20012
