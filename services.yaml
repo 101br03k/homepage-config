@@ -50,7 +50,7 @@
           url: http://192.168.0.11:26144
           fields: ["download", "upload", "ping"]
     - Watch Your Lan:
-        href: http://192.168.0.11:8840/line/?state=on
+        href: http://192.168.0.11:8840
         ping: http://192.168.0.11:8840
         icon: https://raw.githubusercontent.com/101br03k/docker-setup/main/dashboard-icons/WatchYourLan.png
     - Uptime Kuma:
