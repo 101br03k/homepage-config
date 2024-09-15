@@ -152,9 +152,9 @@
         ping: http://192.168.0.11:46882
         icon: https://raw.githubusercontent.com/101br03k/docker-setup/main/dashboard-icons/md.png
     - TubeTube:
-        href: http://192.168.0.11:6543
+        #href: http://192.168.0.11:6543
         ping: http://192.168.0.11:6543
-        #icon: https://github.com/MattBlackOnly/TubeTube/blob/b76ab57e61746d12ce93d79d276136de729d3e44/tubetube/static/tubetube.png
+        icon: https://github.com/MattBlackOnly/TubeTube/blob/b76ab57e61746d12ce93d79d276136de729d3e44/tubetube/static/tubetube.png
     - ConvertX:
         href: http://192.168.0.11:3000/
         ping: http://192.168.0.11:3000/
