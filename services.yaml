@@ -217,11 +217,11 @@
           
 - Stats:
    - Pi-Hole:
-        href: http://192.168.0.11
-        ping: http://192.168.0.11/
+        href: http://192.168.0.11/admin/
+        ping: http://192.168.0.11/admin/
         widget:
           type: pihole
-          url: http://192.168.0.11/
+          url: http://192.168.0.11/admin/
           version: 6 # required if running v6 or higher, defaults to 5
    - Speedtest-tracker:
         href: http://192.168.0.11:26144
