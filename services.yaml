@@ -154,7 +154,7 @@
     - TubeTube:
         href: http://192.168.0.11:6543
         ping: http://192.168.0.11:6543
-        icon: https://raw.githubusercontent.com/MattBlackOnly/TubeTube/blob/main/tubetube/static/logo.png
+        icon: https://raw.githubusercontent.com/MattBlackOnly/TubeTube/main/tubetube/static/logo.png
     - ConvertX:
         href: http://192.168.0.11:3000/
         ping: http://192.168.0.11:3000/
