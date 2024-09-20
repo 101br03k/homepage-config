@@ -65,7 +65,7 @@
         ping: http://192.168.0.11:20012
         icon: docker-moby
 
-- Movies, Series & Books:
+- Media & Data 1:
     - CasaOS:
         icon: casaos
         href: http://192.168.0.13
@@ -91,7 +91,7 @@
         ping: http://192.168.0.13:8787
         icon: readarr
 
-- Media & Data:
+- Media & Data 2:
     - Duplicati:
         href: http://192.168.0.11:8200
         ping: http://192.168.0.11:8200
@@ -103,6 +103,15 @@
         href: http://192.168.0.11:5443/?folder=/docker
         ping: http://192.168.0.11:5443
         icon: code-server
+#    - Immich: 
+#        href: http://192.168.0.12:30041
+#        ping: http://192.168.0.12:30041
+#        icon: immich
+#        widget:
+#          type: immich
+#          url: http://192.168.0.12:30041
+#          key: {{HOMEPAGE_VAR_IMMICH_KEY}}
+#          fields: ["photos", "videos", "storage"]
     - TwingateVPN:
         href: https://adrieit.twingate.com/
         icon: twingate
