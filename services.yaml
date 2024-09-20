@@ -118,7 +118,7 @@
     - Dawarich: 
         href: http://192.168.0.11:14192
         ping: http://192.168.0.11:14192
-        icon: http://192.168.0.11:14192/assets/favicon/apple-touch-icon-429d44ff5d8936f79855e780166a6d7bee8ee6057c12609ae7cf053728914039.png
+        icon: https://dawarich.app/img/logo.svg
     - Cronicle:
         href: http://192.168.0.11:3012
         ping: http://192.168.0.11:3012
