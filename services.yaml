@@ -185,10 +185,6 @@
         href: http://192.168.0.41:8000
         ping: http://192.168.0.41:8000
         icon: readthedocs
-    - Code-server-dev:
-        href: http://192.168.0.179:5443/?folder=/docker
-        ping: http://192.168.0.179:5443
-        icon: code-server
     - rembg-webapp:
         href: http://192.168.0.41:5100
         ping: http://192.168.0.41:5100
@@ -198,9 +194,6 @@
         href: http://192.168.0.41:5200
         ping: http://192.168.0.41:5200
         icon: nginx
-    - tilde:
-        href: http://192.168.0.179:5500
-        ping: http://192.168.0.179:5500
 
 #- Upcoming:
 #    - Calendar:
