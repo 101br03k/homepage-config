@@ -221,6 +221,7 @@
           type: pihole
           url: http://192.168.0.11/admin/
           version: 6 # required if running v6 or higher, defaults to 5
+          key: {{HOMEPAGE_VAR_PIHOLE_API_100_DOCKER}}
    - Speedtest-tracker:
         href: http://192.168.0.11:26144
         ping: http://192.168.0.11:26144
