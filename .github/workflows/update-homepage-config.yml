@@ -22,7 +22,6 @@ jobs:
           pass: ${{ secrets.pass_docker_100 }}
           command: |
             cd /docker/homepage-config/
-            rm *.yaml
             ls -alh
             ./download-config.sh
             ls -alh
