@@ -74,6 +74,10 @@
         href: http://192.168.0.14:18080
         ping: http://192.168.0.14:18080
         icon: qbittorrent
+    - Yamtrack:
+        href: http://192.168.0.11:13336
+        ping: http://192.168.0.11:13336
+        icon: https://raw.githubusercontent.com/101br03k/docker-setup/main/dashboard-icons/yamtrack.png
     - Prowlarr:
         href: http://192.168.0.13:9696
         ping: http://192.168.0.13:9696
@@ -143,10 +147,6 @@
           username: {{HOMEPAGE_VAR_MAIL}}
           password: {{HOMEPAGE_VAR_PASSWORD}}
           fields: ["items", "locations", "totalWithWarranty"] # optional - default fields shown
-    - Yamtrack:
-        href: http://192.168.0.11:13336
-        ping: http://192.168.0.11:13336
-        icon: https://raw.githubusercontent.com/101br03k/docker-setup/main/dashboard-icons/yamtrack.png
     - Spotify Buddylist:
         href: http://192.168.0.11:10000
         ping: http://192.168.0.11:10000
