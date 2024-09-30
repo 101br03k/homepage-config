@@ -93,6 +93,10 @@
         href: http://192.168.0.13:8787
         ping: http://192.168.0.13:8787
         icon: readarr
+    - TubeTube:
+        href: http://192.168.0.13:6543
+        ping: http://192.168.0.13:6543
+        icon: https://raw.githubusercontent.com/MattBlackOnly/TubeTube/main/tubetube/static/logo.png
 
 - Media & Data 2:
     - Duplicati:
@@ -150,10 +154,6 @@
         href: http://192.168.0.11:46882
         ping: http://192.168.0.11:46882
         icon: https://raw.githubusercontent.com/101br03k/docker-setup/main/dashboard-icons/md.png
-    - TubeTube:
-        href: http://192.168.0.13:6543
-        ping: http://192.168.0.13:6543
-        icon: https://raw.githubusercontent.com/MattBlackOnly/TubeTube/main/tubetube/static/logo.png
     - ConvertX:
         href: http://192.168.0.11:3000/
         ping: http://192.168.0.11:3000/
