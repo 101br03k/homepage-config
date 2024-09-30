@@ -4,7 +4,6 @@
 
 - Home Network:
     - Ziggo Connectbox:
-        description: Arris TG2492LG
         href: http://192.168.0.1/
         icon: router
     - MikroTik RB260G:
