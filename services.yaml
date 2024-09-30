@@ -30,6 +30,10 @@
         href: http://192.168.0.11/admin/
         ping: http://192.168.0.11/admin/
         icon: pi-hole
+    - unifi-network-application:
+        href: http://192.168.0.11:8443
+        ping: http://192.168.0.11:8443
+        icon: unifi
 
 - Monitoring:
     - Dozzle:
