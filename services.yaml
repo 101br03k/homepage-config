@@ -119,10 +119,6 @@
     - TwingateVPN:
         href: https://adrieit.twingate.com/
         icon: twingate
-    - Dawarich: 
-        href: http://192.168.0.11:14192
-        ping: http://192.168.0.11:14192
-        icon: https://dawarich.app/img/logo.svg
     - Cronicle:
         href: http://192.168.0.11:3012
         ping: http://192.168.0.11:3012
