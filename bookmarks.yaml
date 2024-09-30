@@ -1,6 +1,6 @@
 ---
 # For configuration options and examples, please see:
-# https://gethomepage.dev/en/configs/bookmarks
+# https://gethomepage.dev/configs/bookmarks
 
 - Homepage Related:
     - Homepage.dev:
@@ -16,8 +16,11 @@
 
 - Social:
     - Reddit r/Selfhosted:
-        - abbr: RE
+        - icon: reddit
           href: https://www.reddit.com/r/selfhosted
+    - Reddit r/unixporn:
+        - icon: reddit
+          href: https://www.reddit.com/r/unixporn
 
 - Developer:
     - Docker setup Repo:
@@ -27,8 +30,8 @@
         - icon: si-github-#FFFFFF
           href: https://github.com/101br03k
     - Docker Hub:
-        - abbr: DH
+        - icon: https://hub.docker.com/favicon.ico
           href: https://hub.docker.com
     - LinuxServer.io:
-        - abbr: LS
+        - icon: linuxserver-io
           href: https://fleet.linuxserver.io/ 
