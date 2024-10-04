@@ -150,6 +150,10 @@
           username: {{HOMEPAGE_VAR_MAIL}}
           password: {{HOMEPAGE_VAR_PASSWORD}}
           fields: ["items", "locations", "totalWithWarranty"] # optional - default fields shown
+      - Wallos:
+        href: http://192.168.0.11:8282
+        ping: http://192.168.0.11:8282
+        icon: wallos
     - Spotify Buddylist:
         href: http://192.168.0.11:10000
         ping: http://192.168.0.11:10000
@@ -162,6 +166,8 @@
         href: http://192.168.0.11:3000/
         ping: http://192.168.0.11:3000/
         icon: http://192.168.0.11:3000/favicon-32x32.png
+        
+Overig 2:
     - rembg-webapp:
         href: http://192.168.0.11:5100
         ping: http://192.168.0.11:5100
