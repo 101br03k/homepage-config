@@ -150,7 +150,7 @@
           username: {{HOMEPAGE_VAR_MAIL}}
           password: {{HOMEPAGE_VAR_PASSWORD}}
           fields: ["items", "locations", "totalWithWarranty"] # optional - default fields shown
-      - Wallos:
+    - Wallos:
         href: http://192.168.0.11:8282
         ping: http://192.168.0.11:8282
         icon: wallos
