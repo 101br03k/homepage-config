@@ -199,6 +199,7 @@
         href: http://192.168.0.41:5200
         ping: http://192.168.0.41:5200
         icon: nginx
+        id: upsidedown
 
 #- Upcoming:
 #    - Calendar:
