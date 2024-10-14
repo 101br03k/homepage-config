@@ -1,7 +1,7 @@
-      #upsidedown img {
-          transform: rotate(180deg);
-      }
+#upsidedown img {
+    transform: scaleX(-1);
+}
 
-      #removestats .service-container{
-        display: none;
-      }
+#removestats .service-container{
+  display: none;
+}
