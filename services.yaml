@@ -114,15 +114,6 @@
         href: http://192.168.0.11:5443/?folder=/docker
         ping: http://192.168.0.11:5443
         icon: code-server
-#    - Immich: 
-#        href: http://192.168.0.12:30041
-#        ping: http://192.168.0.12:30041
-#        icon: immich
-#        widget:
-#          type: immich
-#          url: http://192.168.0.12:30041
-#          key: {{HOMEPAGE_VAR_IMMICH_KEY}}
-#          fields: ["photos", "videos", "storage"]
     - TwingateVPN:
         href: https://adrieit.twingate.com/
         icon: twingate
@@ -200,34 +191,8 @@
         ping: http://192.168.0.41:5200
         icon: nginx
         id: upsidedown
-
-#- Upcoming:
-#    - Calendar:
-#        widget:
-#          type: calendar
-#          view: agenda
-#          showTime: true
-#          maxEvents: 15
-#          integrations:
-#            - type: ical
-#              name: Sonarr
-#              url: http://192.168.0.22:8989/feed/calendar/Sonarr.ics?unmonitored=true&apikey=998058b2b15843ad9a9e08c48c1c30b4
-#              color: teal
-#            - type: ical
-#              name: Radarr
-#              url: http://192.168.0.22:7878/feed/v3/calendar/Radarr.ics?unmonitored=true&apikey=208fe06aea60416bb07dd82069986c82
-#              color: indigo
           
 - Stats:
-#    - PVE-Paulus:
-#        href: http://192.168.0.10:8006
-#        ping: http://192.168.0.10:8006
-#        icon: proxmox
-#        widget:
-#          type: proxmox
-#          url: http://192.168.0.10:8006
-#          username: {{HOMEPAGE_VAR_PROXMOX_API_TOKEN_ID}}
-#          password: {{HOMEPAGE_VAR_PROXMOX_API_TOKEN_SECRET}}
    - Pi-Hole:
         href: http://192.168.0.11/admin/
         ping: http://192.168.0.11/admin/
@@ -271,6 +236,25 @@
           username: {{HOMEPAGE_VAR_USERNAME}}
           password: {{HOMEPAGE_VAR_PASSWORD}}
 
+- Stats 2:
+   - ChangeDetection.IO: 
+        href: http://192.168.0.11:5000
+        ping: http://192.168.0.11:5000
+        icon: changedetection-io
+        widget:
+          type: changedetectionio
+          url: http://192.168.0.11:5000
+          key: {{HOMEPAGE_VAR_CHANGEDETECTION_KEY}}
+   - Homebox:
+        href: http://192.168.0.11:3100
+        ping: http://192.168.0.11:3100
+        icon: homebox
+        widget:
+          type: homebox
+          url: http://192.168.0.11:3100
+          username: {{HOMEPAGE_VAR_MAIL}}
+          password: {{HOMEPAGE_VAR_PASSWORD}}
+          fields: ["items", "locations", "totalWithWarranty"] # optional - default fields shown
 - Glances:
    - Glances:
        description: A monitoring tool that presents information through a Web based interface.
