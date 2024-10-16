@@ -46,5 +46,8 @@ layout:
     Stats: 
       tab: Status
 
+    Stats 2: 
+      tab: Status
+
     Glances:
       tab: Status
