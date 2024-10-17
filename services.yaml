@@ -171,6 +171,10 @@
         href: https://192.168.0.11:6902
         ping: https://192.168.0.11:6902
         icon: https://raw.githubusercontent.com/101br03k/docker-setup/main/dashboard-icons/firefox-logo-1000x1032.png
+    - Linkwarden:
+       href: http://192.168.0.11:39739
+       ping: http://192.168.0.11:39739
+       icon: linkwarden
 
 - </> Dev:
     - GHStats:
@@ -255,6 +259,14 @@
           username: {{HOMEPAGE_VAR_MAIL}}
           password: {{HOMEPAGE_VAR_PASSWORD}}
           fields: ["items", "locations", "totalWithWarranty"] # optional - default fields shown
+   - Linkwarden:
+       href: http://192.168.0.11:39739
+       ping: http://192.168.0.11:39739
+       icon: linkwarden
+       widget:
+          type: linkwarden
+          url: http://192.168.0.11:39739
+          key: {{HOMEPAGE_VAR_LINKWARDEN_KEY}}
 - Glances:
    - Glances:
        description: A monitoring tool that presents information through a Web based interface.
