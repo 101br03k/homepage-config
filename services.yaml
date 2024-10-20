@@ -55,7 +55,7 @@
     - Watch Your Lan:
         href: http://192.168.0.11:8840
         ping: http://192.168.0.11:8840
-        icon: https://raw.githubusercontent.com/101br03k/docker-setup/main/dashboard-icons/WatchYourLan.png
+        icon: https://raw.githubusercontent.com/aceberg/WatchYourLAN/main/assets/logo.png
     - Uptime Kuma:
         href: http://192.168.0.11:3001
         ping : http://192.168.0.11:3001
@@ -170,7 +170,7 @@
     - Firefox:
         href: https://192.168.0.11:6902
         ping: https://192.168.0.11:6902
-        icon: https://raw.githubusercontent.com/101br03k/docker-setup/main/dashboard-icons/firefox-logo-1000x1032.png
+        icon: firefox
     - Linkwarden:
        href: http://192.168.0.11:39739
        ping: http://192.168.0.11:39739
