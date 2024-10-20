@@ -33,7 +33,7 @@
         - icon: si-github-#FFFFFF
           href: https://github.com/101br03k
     - Docker Hub:
-        - icon: https://hub.docker.com/favicon.ico
+        - icon: si-docker-#FFFFFF
           href: https://hub.docker.com
     - LinuxServer.io:
         - icon: linuxserver-io
