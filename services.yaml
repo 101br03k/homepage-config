@@ -278,11 +278,6 @@
          url: http://192.168.0.11:61208
          metric: info
          version: 4
-   - CPU Usage:
-       widget:
-         type: glances
-         url: http://192.168.0.11:61208
-         metric: cpu
    - Memory Usage:
        widget:
          type: glances
