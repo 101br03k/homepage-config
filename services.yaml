@@ -5,6 +5,7 @@
 - Home Network:
     - Ziggo Connectbox:
         href: http://192.168.0.1/
+        ping: http://192.168.0.1
         icon: router
     - MikroTik RB260G:
         href: http://192.168.0.5/
@@ -16,110 +17,110 @@
         icon: proxmox
     - Dockge:
         href: http://192.168.0.11:5001
-        ping: http://192.168.0.11:5001
+        siteMonitor: http://192.168.0.11:5001
         icon: dockge-light
     - Portainer:
         href: https://192.168.0.11:9443
-        ping: https://192.168.0.11:9443
+        siteMonitor: https://192.168.0.11:9443
         icon: portainer
     - Home Assistant:
         href: http://192.168.0.31:8123
-        ping: http://192.168.0.31:8123
+        siteMonitor: http://192.168.0.31:8123
         icon: home-assistant
     - Docker Pi-Hole:
         href: http://192.168.0.11/admin/
-        ping: http://192.168.0.11/admin/
+        siteMonitor: http://192.168.0.11/admin/
         icon: pi-hole
     - unifi-network-application:
         href: http://192.168.0.11:8443
-        ping: http://192.168.0.11:8443
+        siteMonitor: http://192.168.0.11:8443
         icon: unifi
 
 - Monitoring:
     - Dozzle:
         href: http://192.168.0.11:9999
-        ping: http://192.168.0.11:9999
+        siteMonitor: http://192.168.0.11:9999
         icon: dozzle
     - Glances:
         href: http://192.168.0.11:61208
-        ping: http://192.168.0.11:61208
+        siteMonitor: http://192.168.0.11:61208
         icon: glances
     - Speedtest-tracker:
         href: http://192.168.0.11:26144
-        ping: http://192.168.0.11:26144
+        siteMonitor: http://192.168.0.11:26144
         icon: speedtest-tracker-old
         widget:
           type: speedtest
           url: http://192.168.0.11:26144
-          fields: ["download", "upload", "ping"]
+          fields: ["download", "upload", "siteMonitor"]
     - Watch Your Lan:
         href: http://192.168.0.11:8840
-        ping: http://192.168.0.11:8840
+        siteMonitor: http://192.168.0.11:8840
         icon: https://raw.githubusercontent.com/aceberg/WatchYourLAN/main/assets/logo.png
     - Uptime Kuma:
         href: http://192.168.0.11:3001
-        ping : http://192.168.0.11:3001
+        siteMonitor : http://192.168.0.11:3001
         icon: uptime-kuma
     - Uptime Robot:
         href: https://dashboard.uptimerobot.com/monitors
         icon: https://raw.githubusercontent.com/101br03k/docker-setup/main/dashboard-icons/uptime-robot.png
     - Dockcheck-web:
         href: http://192.168.0.11:20012
-        ping: http://192.168.0.11:20012
+        siteMonitor: http://192.168.0.11:20012
         icon: docker-moby
 
 - Media & Data 1:
     - CasaOS:
         icon: casaos
         href: http://192.168.0.13
-        ping: http://192.168.0.13
+        siteMonitor: http://192.168.0.13
     - Qbittorrent:
         href: http://192.168.0.14:18080
-        ping: http://192.168.0.14:18080
+        siteMonitor: http://192.168.0.14:18080
         icon: qbittorrent
     - Yamtrack:
         href: http://192.168.0.11:13336
-        ping: http://192.168.0.11:13336
+        siteMonitor: http://192.168.0.11:13336
         icon: https://raw.githubusercontent.com/101br03k/docker-setup/main/dashboard-icons/yamtrack.png
     - Prowlarr:
         href: http://192.168.0.13:9696
-        ping: http://192.168.0.13:9696
+        siteMonitor: http://192.168.0.13:9696
         icon: prowlarr
     - Sonarr:
         href: http://192.168.0.13:8989
-        ping: http://192.168.0.13:8989
+        siteMonitor: http://192.168.0.13:8989
         icon: sonarr
     - Radarr:
         href: http://192.168.0.13:7878
-        ping: http://192.168.0.13:7878
+        siteMonitor: http://192.168.0.13:7878
         icon: radarr
     - Readarr:
         href: http://192.168.0.13:8787
-        ping: http://192.168.0.13:8787
+        siteMonitor: http://192.168.0.13:8787
         icon: readarr
     - TubeTube:
         href: http://192.168.0.13:6543
-        ping: http://192.168.0.13:6543
+        siteMonitor: http://192.168.0.13:6543
         icon: https://raw.githubusercontent.com/MattBlackOnly/TubeTube/main/tubetube/static/logo.png
 
 - Media & Data 2:
     - Duplicati:
         href: http://192.168.0.11:8200
-        ping: http://192.168.0.11:8200
+        siteMonitor: http://192.168.0.11:8200
         icon: duplicati
     - Duplicati Monitoring:
         href: https://www.duplicati-monitoring.com/overview
         icon: https://raw.githubusercontent.com/101br03k/docker-setup/main/dashboard-icons/duplicati-monitoring.png
     - Code-server:
         href: http://192.168.0.11:5443/?folder=/docker
-        ping: http://192.168.0.11:5443
+        siteMonitor: http://192.168.0.11:5443
         icon: code-server
     - TwingateVPN:
         href: https://adrieit.twingate.com/
         icon: twingate
     - ChangeDetection.IO: 
         href: http://192.168.0.11:5000
-        ping: http://192.168.0.11:5000
+        siteMonitor: http://192.168.0.11:5000
         icon: changedetection-io
         widget:
           type: changedetectionio
@@ -129,7 +130,7 @@
 - Overig:
     - Homebox:
         href: http://192.168.0.11:3100
-        ping: http://192.168.0.11:3100
+        siteMonitor: http://192.168.0.11:3100
         icon: homebox
         widget:
           type: homebox
@@ -139,66 +140,66 @@
           fields: ["items", "locations", "totalWithWarranty"] # optional - default fields shown
     - Wallos:
         href: http://192.168.0.11:8282
-        ping: http://192.168.0.11:8282
+        siteMonitor: http://192.168.0.11:8282
         icon: wallos
     - Spotify Buddylist:
         href: http://192.168.0.11:10000
-        ping: http://192.168.0.11:10000
+        siteMonitor: http://192.168.0.11:10000
         icon: spotify
     - Tasks.md:
         href: http://192.168.0.11:46882
-        ping: http://192.168.0.11:46882
+        siteMonitor: http://192.168.0.11:46882
         icon: https://raw.githubusercontent.com/101br03k/docker-setup/main/dashboard-icons/md.png
     - ConvertX:
         href: http://192.168.0.11:3000/
-        ping: http://192.168.0.11:3000/
+        siteMonitor: http://192.168.0.11:3000/
         icon: https://raw.githubusercontent.com/101br03k/docker-setup/main/dashboard-icons/convertx.png
         
 - Overig 2:
     - rembg-webapp:
         href: http://192.168.0.11:5100
-        ping: http://192.168.0.11:5100
+        siteMonitor: http://192.168.0.11:5100
         icon: python
     - nginx-up-page:
         href: http://192.168.0.11:5200
-        ping: http://192.168.0.11:5200
+        siteMonitor: http://192.168.0.11:5200
         icon: nginx
     - Firefox:
         href: https://192.168.0.11:6902
-        ping: https://192.168.0.11:6902
+        siteMonitor: https://192.168.0.11:6902
         icon: firefox
     - Linkwarden:
        href: http://192.168.0.11:39739
-       ping: http://192.168.0.11:39739
+       siteMonitor: http://192.168.0.11:39739
        icon: linkwarden
     - Manyfold: 
        href: http://192.168.0.11:3214/models
-       ping: http://192.168.0.11:3214
+       siteMonitor: http://192.168.0.11:3214
        icon: manyfold
     - Docuseal:
         href: http://192.168.0.11:41861/
-        ping: http://192.168.0.11:41861/
+        siteMonitor: http://192.168.0.11:41861/
         icon: docuseal
 
 - </> Dev:
     - GHStats:
         href: http://192.168.0.11:7190/
-        ping: http://192.168.0.11:7190/
+        siteMonitor: http://192.168.0.11:7190/
         icon: si-github-#FFFFFF
     - Docker Docs:
         href: http://192.168.0.41:8000
-        ping: http://192.168.0.41:8000
+        siteMonitor: http://192.168.0.41:8000
         icon: readthedocs
     - rembg-webapp:
         href: http://192.168.0.41:5100
-        ping: http://192.168.0.41:5100
+        siteMonitor: http://192.168.0.41:5100
         icon: python
         id: upsidedown
           
 - Stats:
    - Pi-Hole:
         href: http://192.168.0.11/admin/
-        ping: http://192.168.0.11/admin/
+        siteMonitor: http://192.168.0.11/admin/
         icon: pi-hole
         widget:
           type: pihole
@@ -207,15 +208,15 @@
           key: {{HOMEPAGE_VAR_PIHOLE_API_100_DOCKER}}
    - Speedtest-tracker:
         href: http://192.168.0.11:26144
-        ping: http://192.168.0.11:26144
+        siteMonitor: http://192.168.0.11:26144
         icon: speedtest-tracker-old
         widget:
           type: speedtest
           url: http://192.168.0.11:26144
-          fields: ["download", "upload", "ping"]
+          fields: ["download", "upload", "siteMonitor"]
    - Uptime Kuma - Docker Containers:
         href: http://192.168.0.11:3001/status/docker
-        ping: http://192.168.0.11:3001
+        siteMonitor: http://192.168.0.11:3001
         icon: uptime-kuma
         widget:
           type: uptimekuma
@@ -231,7 +232,7 @@
           key: {{HOMEPAGE_VAR_UPTIMEROBOT_KEY}}
    - Qbittorrent:
         href: http://192.168.0.14:18080
-        ping: http://192.168.0.14:18080
+        siteMonitor: http://192.168.0.14:18080
         icon: qbittorrent
         widget:
           type: qbittorrent
@@ -242,7 +243,7 @@
 - Stats 2:
    - ChangeDetection.IO: 
         href: http://192.168.0.11:5000
-        ping: http://192.168.0.11:5000
+        siteMonitor: http://192.168.0.11:5000
         icon: changedetection-io
         widget:
           type: changedetectionio
@@ -250,7 +251,7 @@
           key: {{HOMEPAGE_VAR_CHANGEDETECTION_KEY}}
    - Homebox:
         href: http://192.168.0.11:3100
-        ping: http://192.168.0.11:3100
+        siteMonitor: http://192.168.0.11:3100
         icon: homebox
         widget:
           type: homebox
@@ -260,7 +261,7 @@
           fields: ["items", "locations", "totalWithWarranty"] # optional - default fields shown
    - Linkwarden:
        href: http://192.168.0.11:39739
-       ping: http://192.168.0.11:39739
+       siteMonitor: http://192.168.0.11:39739
        icon: linkwarden
        widget:
           type: linkwarden
@@ -270,7 +271,7 @@
    - Glances:
        description: A monitoring tool that presents information through a Web based interface.
        href: http://192.168.0.11:61208
-       ping: http://192.168.0.11:61208
+       siteMonitor: http://192.168.0.11:61208
        icon: glances
        widget:
          type: glances
