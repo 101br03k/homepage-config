@@ -175,6 +175,10 @@
        href: http://192.168.0.11:3214/models
        ping: http://192.168.0.11:3214
        icon: manyfold
+    - Docuseal:
+        href: http://192.168.0.11:41861/
+        ping: http://192.168.0.11:41861/
+        icon: docuseal
 
 - </> Dev:
     - GHStats:
