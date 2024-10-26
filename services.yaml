@@ -195,6 +195,11 @@
         siteMonitor: http://192.168.0.41:5100
         icon: python
         id: upsidedown
+    - Code-server:
+        href: http://192.168.0.41:5443/?folder=/docker/dev/docker-docs
+        siteMonitor: http://192.168.0.41:5443
+        icon: code-server
+
           
 - Stats:
    - Pi-Hole:
