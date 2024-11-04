@@ -194,18 +194,12 @@
         href: http://192.168.0.11:10934/
         siteMonitor: http://192.168.0.11:10934
         icon: https://otterwiki.com/static/img/otter-favicon2.png
-    - Docker Docs:
-        href: http://192.168.0.41:8000
-        siteMonitor: http://192.168.0.41:8000
-        icon: si-readthedocs
     - rembg-webapp:
         href: http://192.168.0.41:5100
         siteMonitor: http://192.168.0.41:5100
         icon: python
         id: upsidedown
 
-
-          
 - Stats:
    - Pi-Hole:
         href: http://192.168.0.11/admin/
@@ -277,6 +271,7 @@
           type: linkwarden
           url: http://192.168.0.11:39739
           key: {{HOMEPAGE_VAR_LINKWARDEN_KEY}}
+
 - Glances:
    - Glances:
        description: A monitoring tool that presents information through a Web based interface.
