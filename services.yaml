@@ -195,11 +195,6 @@
         siteMonitor: http://192.168.0.41:5100
         icon: python
         id: upsidedown
-    - nginx-up-page:
-        href: http://192.168.0.11:5200
-        siteMonitor: http://192.168.0.41:5200
-        icon: nginx
-        id: upsidedown
 
 - Stats:
    - Pi-Hole:
