@@ -32,8 +32,8 @@
         siteMonitor: http://192.168.0.11/admin/
         icon: pi-hole
     - unifi-network-application:
-        href: http://192.168.0.11:8443
-        siteMonitor: http://192.168.0.11:8443
+        href: https://192.168.0.11:8443
+        siteMonitor: https://192.168.0.11:8443
         icon: unifi
 
 - Monitoring:
@@ -267,6 +267,17 @@
           type: linkwarden
           url: http://192.168.0.11:39739
           key: {{HOMEPAGE_VAR_LINKWARDEN_KEY}}
+   - unifi-network-application:
+        href: https://192.168.0.11:8443
+        siteMonitor: https://192.168.0.11:8443
+        icon: unifi
+        widget:
+            type: unifi
+            url: https://192.168.0.11:8443
+            username: adm-aw
+            password: Jekomternietin03
+            #site: Site Name # optional
+            fields: ["uptime", "wan", "lan"]
 
 - Glances:
    - Glances:
