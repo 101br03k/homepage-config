@@ -186,10 +186,10 @@
         href: http://192.168.0.41:5443/?folder=/docker/dev/docker-docs
         siteMonitor: http://192.168.0.41:5443
         icon: code-server
-    - Otter Wiki:
-        href: http://192.168.0.11:10934/
-        siteMonitor: http://192.168.0.11:10934
-        icon: https://otterwiki.com/static/img/otter-favicon2.png
+    - Docker Docs:
+        href: http://192.168.0.41:8000
+        siteMonitor: http://192.168.0.41:8000
+        icon: google-docs
     - rembg-webapp:
         href: http://192.168.0.41:5100
         siteMonitor: http://192.168.0.41:5100
