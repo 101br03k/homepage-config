@@ -49,10 +49,10 @@
         href: http://192.168.0.11:26144
         siteMonitor: http://192.168.0.11:26144
         icon: speedtest-tracker-old
-        widget:
-          type: speedtest
-          url: http://192.168.0.11:26144
-          fields: ["download", "upload", "siteMonitor"]
+    - Grafana: 
+        href: http://192.168.0.11:8087/d/IfgdXjtnk/proxmox-cluster-flux?orgId=1&from=now-1h&to=now&timezone=browser&var-dsProxmox=ce5zykoe22hogb&var-Bucket=proxmox&var-server=$__all&refresh=30s
+        siteMonitor: http://192.168.0.11:8087
+        icon: grafana
     - Watch Your Lan:
         href: http://192.168.0.11:8840
         siteMonitor: http://192.168.0.11:8840
@@ -118,6 +118,10 @@
     - TwingateVPN:
         href: https://adrieit.twingate.com/
         icon: twingate
+    - InfluxDB:
+        href: http://192.168.0.11:8086/orgs/9374605965641a47
+        siteMonitor: http://192.168.0.11:8086/orgs/9374605965641a47
+        icon: influxdb
     - ChangeDetection.IO: 
         href: http://192.168.0.11:5000
         siteMonitor: http://192.168.0.11:5000
