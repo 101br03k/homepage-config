@@ -39,15 +39,3 @@ layout:
 
     Upcoming:
       tab: Main
-
-    Pihole:
-      tab: Status
-
-    Stats: 
-      tab: Status
-
-    Stats 2: 
-      tab: Status
-
-    Glances:
-      tab: Status
